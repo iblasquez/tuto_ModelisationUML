@@ -14,7 +14,7 @@ Une comparaison de ces différents logiciels UML est disponible sur Wikipédia �
 Vous trouverez ici :
 
 * un tutoriel de prise en main de [Modelio](https://www.modelio.org/) disponible dans le répertoire [Modelio](/Modelio/Modelio_Intro.md)
-* un tutoriel de prise en main de [STAR UML](http://staruml.io/) disponible dans le répertoire [STARUML](/STARUML)
+* un tutoriel de prise en main de [STAR UML](http://staruml.io/) disponible dans le répertoire [STARUML](/StarUML)
 	
 mais également
 
