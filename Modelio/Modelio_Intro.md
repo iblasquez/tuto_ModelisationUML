@@ -52,7 +52,7 @@ Dézippez ce fichier. **Modelio** est prêt à être utilisé !
 
 ## Lancer Modelio <a id="lancement"></a> 
 Lancer Modelio via l'icône 
-<img src="/images/modelio_logo.jpg" alt="Icone Modelio" width="60">
+<img src="images/modelio_logo.jpg" alt="Icone Modelio" width="60">
 <!--[Icone Modelio"](/images/modelio_logo.jpg)-->
 
 Pour une première utilisation, fermez l'onglet **Welcome**.
@@ -97,7 +97,7 @@ N'oubliez pas de cocher la case **Java** !
 ## Découvrir la fenêtre de travail  <a id="fenetreTravail"></a>
 Une fois le projet créé, une fenêtre de travail similaire à la figure ci-dessous se créée :
 
-![Fenêtre de travail Modelio](/images/Bookinons_FenetreTravailPrincipale.png)
+![Fenêtre de travail Modelio](images/Bookinons_FenetreTravailPrincipale.png)
 
 Le manuel utilisateur décrit en détail les différents outils et vues de cette fenêtre de travail. Consulter la page [Fenêtre de travail](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_interface_main_window) pour en savoir plus sur les différents outils et différentes vues disponible dans cette fenêtre de travail et découvrir la légende ce la figure ci-dessous.
 ![Fenêtre de travail Modelio extrait Manuel utilisateur](http://forge.modelio.org/attachments/download/14249/fr_main_window.png).
