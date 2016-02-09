@@ -62,18 +62,18 @@ Sélectionnez le type de diagramme **`Use Case diagram`**
 Changez le nom du diagramme, par exemple en **`Bookinons UC`**.  
 Vérifiez que le propriétaire du diagramme est bien **bookinons** c-a-d l'élément sélectionné au départ.
 Cliquez sur **OK** pour valider la création du diagramme.
-![Création Diagramme UC](/images/DiagUC_Creation.png)
+![Création Diagramme UC](images/DiagUC_Creation.png)
 
 La **[vue Modèle](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_interface_uml_view)** est alors mise à jour avec le nom de notre nouveau diagramme : **Bookinons UC** en dessous du dossier **bookinons**.  
 
-<img src="/images/DiagUC_VueModele.png" alt="Vue Modele après création diagramme UC" width="300">
+<img src="images/DiagUC_VueModele.png" alt="Vue Modele après création diagramme UC" width="300">
 
-<!-- [Vue Modele après création diagramme UC](/images/DiagUC_VueModele.png) -->
+<!-- [Vue Modele après création diagramme UC](images/DiagUC_VueModele.png) -->
 
 Un nouvel onglet **Bookinons UC** apparaît également dans la **[vue “Edition des diagrammes”](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_interface_edition_view)**.  
 Des palettes graphiques propres aux cas d'utilisations sont associés à cet onglet comme ***Nodes*** pour ce qui concerne les acteurs ou ***Links*** pour les différentes relations.
 
-![Vue Edition Diagramme UC](/images/DiagUC_VueEditionDiagramme.png)
+![Vue Edition Diagramme UC](images/DiagUC_VueEditionDiagramme.png)
 
  
 **N'oubliez pas de sauvegarder régulièrement votre projet au cours de ce tutoriel...**
@@ -109,7 +109,7 @@ Pour ajouter un nouvel **acteur** sur votre **diagramme de Use Case**, commencez
 Cliquez ensuite sur l'icône **Actor** dans la palette du diagramme.
 Rendez-vous ensuite sur le fond du diagramme (quadrillage jaune qui va contenir le diagramme),
 un **clic gauche** permet de faire apparaître à l'endroit, où vous venez de cliquer, un **acteur** sur ce diagramme sous sa forme **stick man** :  
-![Acteur](/images/DiagUC_Actor.png) 
+![Acteur](images/DiagUC_Actor.png) 
 
 
 Consultez ensuite la **[vue Modèle](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_interface_uml_view)**  pour constater que l'acteur **Actor** a bien été ajouté. Il apparaît sous `bookinons` et précédé d'une icône de *stickman*. 
@@ -177,19 +177,19 @@ Commencez par choisir la valeur **`Image`** de cette propriété.
 C'est l'image du stéréotype qui s'affiche, la même que celle qui est affichée dans la vue Modèle.  
 Comme dans notre cas, nous venons de choisir un stéréotype `<<System>>` l'image doit correspondre à ce stéréotype.
 
-![Acteur avec un mode de représentation Image](/images/DiagUC_Actor_ApparenceImage.png) 
+![Acteur avec un mode de représentation Image](images/DiagUC_Actor_ApparenceImage.png) 
  
 Essayez ensuite la valeur **`Structured`** pour la propriété **`Representation mode`**.
 
 Si on souhaite obtenir la même représentation que la figure ci-dessous, vous devez supprimer le stéréotype. Pour cela, rendez-vous dans la **vue Element**, Sélectionnez **<<System>>** et appuyez sur la touche **Suppr**.
 
-![Acteur avec un mode de représentation Structured sans stéréotype](/images/DiagUC_Actor_ApparenceStructuredSansStereotype.png)
+![Acteur avec un mode de représentation Structured sans stéréotype](images/DiagUC_Actor_ApparenceStructuredSansStereotype.png)
 
 La **vue Symbole** permet également de modifier d'autres propriétés graphiques comme la couleur ou l'affichage de certaines propriétés.
 
 Rendez-vous, par exemple, sur la propriété **`Name dislay mode`** et choisissez comme nous valeur : **`Hidden`**. Vous obtiendrez alors une représentation de l'acteur **Paiement Sécurisé** similaire à la figure ci-dessous.
 
-![Acteur avec un mode de représentation Structured sans stéréotype et un name display mode Hidden](/images/DiagUC_Actor_ApparenceStructuredSansStereotypeNameDisplayHidden.png)
+![Acteur avec un mode de représentation Structured sans stéréotype et un name display mode Hidden](images/DiagUC_Actor_ApparenceStructuredSansStereotypeNameDisplayHidden.png)
 
 ### Un petit coup d'oeil sur le manuel utilisateur...
 Consulter la rubrique [Définir les options graphiques dans les diagrammes](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_diagrams_graphic_options) pour obtenir plus de détails sur la **vue Symbole** qui permet de visualiser et éditer les propriétés graphiques des éléments d'un diagramme et du diagramme lui-même ...   
@@ -243,7 +243,7 @@ Comme pour un acteur, vous pouvez modifier le mode de représentation d'un cas d
 
 Le **mode représentation** *classique* pour un cas d'utilisation est **`Structured`** comme le montre la figure ci-dessous.
 
-![UseCase Representation Structured](/images/DiagUC_UC_Structured.png)
+![UseCase Representation Structured](images/DiagUC_UC_Structured.png)
 
 
 
@@ -251,7 +251,7 @@ Le **mode représentation** *classique* pour un cas d'utilisation est **`Structu
 
 La **modélisation complète du cas d'utilisation *Rechercher Ouvrage*** est la suivante :
 
-![Modélisation complète du cas d'utilisation Rechercher Ouvrage](/images/DiagUC_UCRechercherOuvrage.png)
+![Modélisation complète du cas d'utilisation Rechercher Ouvrage](images/DiagUC_UCRechercherOuvrage.png)
 
 Cette modélisation nécessite la présence de **3 éléments** :
 
@@ -288,7 +288,7 @@ Pour sélectionner rapidement plusieurs éléments d'un même diagramme, vous po
 
 Afin de mettre en pratique tout ce qui prècède, compléter votre diagramme de Use Case jusqu'à l'obtention du diagramme suivant :
 
-![DiagUC_Exo1](/images/DiagUC_Exo1.png)
+![DiagUC_Exo1](images/DiagUC_Exo1.png)
 
 
 **Remarque :**
@@ -308,7 +308,7 @@ La navigabilité (flèche sur le lien de communication) sera alors ajoutée à l
 
 Sur le diagramme précédent, rajoutez la navigabilité entre le cas d'utilisation `Effectuer une commande` et l'acteur `Service Clients` comme l'indiquela figure ci-dessous :
 
-![DiagUC_Exo1](/images/DiagUC_Exo1_Navigabilite.png)
+![DiagUC_Exo1](images/DiagUC_Exo1_Navigabilite.png)
 
 ## Connaître les raccourcis autour du diagramme de cas d'utilisation  <a id="raccourcisDiagrammeUC"></a>
 
@@ -332,7 +332,7 @@ Il ne vous reste plus qu'à cliquer sur (`Libraire`) (acteur à l'origine du lie
 
 Le manuel utilisateur propose un tableau récapitulant les [raccourcis de création dans les diagrammes de cas d'utilisation](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_shortcuts_usecase_diagram)
 
-![Raccourcis Diagramme de UC extraits du Manuel utilisateur](/images/DiagUC_Raccourcis.png)
+![Raccourcis Diagramme de UC extraits du Manuel utilisateur](images/DiagUC_Raccourcis.png)
 
 
 
@@ -340,7 +340,7 @@ Le manuel utilisateur propose un tableau récapitulant les [raccourcis de créat
 
 Afin de mettre en pratique tout ce qui prècède, compléter votre diagramme de Use Case jusqu'à l'obtention du diagramme suivant :
 
-![DiagUC_Exo2](/images/DiagUC_Exo2.png)
+![DiagUC_Exo2](images/DiagUC_Exo2.png)
 
 
 ## Annoter un élément  <a id="annoterElement"></a>
@@ -365,7 +365,7 @@ Remarque : Vérifiez que le texte est bien mis à jour dans la note sur le graph
 
 Redimensionnez votre note afin d'obtenir un affichage similaire à celui de la figure ci-dessous :
 
-![Ajout d'une note sur le diagramme](/images/DiagUC_Note.png)
+![Ajout d'une note sur le diagramme](images/DiagUC_Note.png)
 
 
 **Remarque:**
@@ -411,7 +411,7 @@ Le nom de l'acteur (rôle) apparait désormais en italique dans votre diagramme.
 
 Après une remise en forme des éléments, vous devriez obtenir une figure semblable à la figure ci-dessous :
 
-![Acteur généralisé](/images/DiagUC_ActeurGeneralise.png)
+![Acteur généralisé](images/DiagUC_ActeurGeneralise.png)
 
 
 ### Mise à jour du diagramme en tenant compte de l'acteur généralisé ...
@@ -446,7 +446,7 @@ Créez ensuite un nouveau Use Case **`Créer un compte Client`** qui devra être
 Votre de diagramme de Use Case autour des acteurs **`Internaute`**, **`Visiteur`** et **`Client`** doit désormais être conforme à la figure ci-dessous :
 
 
-![Diagramme mis à jour avec acteur généralisé](/images/DiagUC_ActeurGeneraliseMiseAJour.png)
+![Diagramme mis à jour avec acteur généralisé](images/DiagUC_ActeurGeneraliseMiseAJour.png)
 
 
 ## Créer une relation d'inclusion entre deux cas d'utilisation  <a id="creerRelationInclusion"></a>
@@ -465,7 +465,7 @@ La destination du lien est le use case **`S'authentifier`** (que vous sélection
 
 Faites de même avec les use case **`Consulter ses commandes`** et **`Gérer son compte`** afin d'obtenir la modélisation ci-dessous. Pour information, le raccourci pour activer la création d'une relation d'inclusion est la touche **`I`**.  
 
-![Relation d'inclusion](/images/DiagUC_Include.png)
+![Relation d'inclusion](images/DiagUC_Include.png)
 
 
 ## Créer une relation d'extension entre deux cas d'utilisation  <a id="creerRelationExtension"></a>
@@ -483,7 +483,7 @@ Pour créer une **relation d'extension** entre **`Effectuer une recherche détai
 L'origine du lien est le use case **`Effectuer une recherche détaillée`**. (que vous sélectionnerez par un clic).  
 La destination du lien est le use case **`Rechercher un ouvrage`** (que vous sélectionnerez par un clic).
 
-![Relation d'extension](/images/DiagUC_Extend.png)
+![Relation d'extension](images/DiagUC_Extend.png)
 
 Pour information, le raccourci pour activer la création d'une relation d'inclusion est la touche **`E`**.  
 
@@ -494,11 +494,11 @@ Pour finaliser le diagramme de cas d'utilisation, nous souhaitons rajouter sur n
 * un nouveau use case **`Consulter l'aide en ligne`** dont l'acteur est l'**`Internaute`**
 * une note associée au use case **`Maintenir le site`**dont la description est **`Gestion des droits, Statistiques des ventes`** dont l'acteur est l'**`Internaute`**
 
-**Remarque :** Pour **retailler automatiquement la taille d'un élément**, il est possible d'utiliser l'icône ![Retaillage automatique](/images/auto_size.png) (accessible dans la barre d'outils de la **vue d'Edition des diagrammes**, à côté des icônes correspondant aux différents choix d'alignement). Un clic sur cet icône permet d'ajuster la taille de l'élément sélectionné à son contenu. Cela est très pratique, essayez avec les descriptions par exemple ...
+**Remarque :** Pour **retailler automatiquement la taille d'un élément**, il est possible d'utiliser l'icône ![Retaillage automatique](images/auto_size.png) (accessible dans la barre d'outils de la **vue d'Edition des diagrammes**, à côté des icônes correspondant aux différents choix d'alignement). Un clic sur cet icône permet d'ajuster la taille de l'élément sélectionné à son contenu. Cela est très pratique, essayez avec les descriptions par exemple ...
 
 Après avoir effectué ces dernières modifications, assurez-vous qu'arrivé(e) à ce point du tutoriel votre diagramme de cas d'utilisation soit conforme à la figure ci-dessous.
 
-![DiagUC_Exo3](/images/DiagUC_Exo3.png)
+![DiagUC_Exo3](images/DiagUC_Exo3.png)
 
 ## Organiser les cas d'utilisation en *Package*  <a id="organiserPackage"></a>
 
@@ -530,19 +530,19 @@ De la même manière à partir du package **`Cible 1`**, créez deux nouveaux pa
 Enfin, au même niveau que le package **`Cible 1`**, créez un nouveau package **`Cible 2`**.
 
 Vous devriez obtenir une arobrescence similaire à la figure ci-dessous.
-![création des packages](/images/DiagUC_Package_Creation.png)
+![création des packages](images/DiagUC_Package_Creation.png)
 
 ### Répartition des acteurs et cas d'utilisation dans les différents packages
 Il ne vous reste plus qu'à déplacer les cas d'utilisation et les acteurs dans les packages concernés afin d'obtenir une répartition conforme à la figure ci-dessous.  
 Peu importe pour le moment l'ordre des UC dans les packages.  
 **Remarque :** Si vous souhaitez tout de même **classer les éléments** dans la **vue Model**, vous pouvez utiliser les flèches jaunes disponibles dans la barre d'outils de cette vue pour faire *monter* ou " *descendre* un élément à une position souhaitée.
 
-![répartition dans les packages](/images/DiagUC_Package_Repartition.png)
+![répartition dans les packages](images/DiagUC_Package_Repartition.png)
 
 ## Copier un diagramme en tant qu'image  <a id="copierDiagramme"></a>
 
 Comme l'indique la rubrique [Copier un diagramme en tant qu'image](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_diagrams_copying), pour copier le contenu d’un diagramme au presse-papiers, il suffit de cliquer sur l’icône
-![CopierDiagramme](/images/copy_image.png) dans la barre d’outils du diagramme et puis de coller le contenu du diagramme dans un autre document.
+![CopierDiagramme](images/copy_image.png) dans la barre d’outils du diagramme et puis de coller le contenu du diagramme dans un autre document.
 
 **Remarque :** Seul le diagramme est copié, pas la grille.
 
@@ -561,7 +561,7 @@ Les chapitres **18.Usa Case** du [Normative Documents](http://www.omg.org/spec/U
 
 Pour un diagramme d'activités, la palette graphique propose les éléments spécifiques suivants :
 
-![Elements Modelio pour un diagramme de cas d'utilisation ](/images/DiagUC_ElementsModelio.png)
+![Elements Modelio pour un diagramme de cas d'utilisation ](images/DiagUC_ElementsModelio.png)
 
 Ces éléments respectent la terminologie énoncée dans le [Normative Documents](http://www.omg.org/spec/UML/2.5/PDF/) (spécification d'UML). 
 
@@ -586,11 +586,11 @@ Ce tutoriel vous guide dans l'utilisation de [Modelio](https://www.modelio.org/)
 
 
 Créer la vue sécanrio ...
-![Vue des scénarios](/images/Bookinons_Vue_UC.png)
+![Vue des scénarios](images/Bookinons_Vue_UC.png)
 
 Enchainer avec l'approche 4+1 et demander de créer l'arboresceencte
 
-![Approche vue 4+1](/images/Bookinons_Approche_4_1.png)
+![Approche vue 4+1](images/Bookinons_Approche_4_1.png)
 Bookinons_Approche_4_1
 
 Ce tutoriel va vous guider dans l'utilisation de [Modelio](https://www.modelio.org/) selon une démarche pseudo-RUP basé sur le modèle de Kruchten dit [modèle des 4 + 1 vues](https://fr.wikipedia.org/wiki/Architecture_logicielle#Le_mod.C3.A8le_des_4_.2B_1_vues), adopté dans l'[Unified Process](https://fr.wikipedia.org/wiki/Unified_process)
@@ -637,7 +637,7 @@ La mise en place de la vue Logique se mène en permanence par rapport aux décou
 
 Si vous décidez de suivre une approche vue 4+1 pour mener votre analyse (RUP ou pseudo-RUP), il est conseillé d'adopter l'arborescence suivante :
 
-![Approche 4+1](/images/Approche_4_1.png)
+![Approche 4+1](images/Approche_4_1.png)
 
 Dans ce cas-là, tout ce qui concerne les cas d'utilisation se retrouvera dans le vue Scénario.
 

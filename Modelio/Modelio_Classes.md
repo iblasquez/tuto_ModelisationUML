@@ -44,7 +44,7 @@ Rendez-vous sur le package **`Vue logique`** de la vue **Model**, puis choisir �
 Sélectionnez le type de diagramme **`Class diagram`**
 Renommez-le, par exemple en **`CD_Bookinons`**.  
 Cliquez sur **OK** pour valider la création du diagramme.
-![Création Diagramme de classes](/images/DiagClasses_Creation.png)
+![Création Diagramme de classes](images/DiagClasses_Creation.png)
 
 La **vue Modèle** est alors mise à jour avec le nom de notre nouveau diagramme : **`CD_Bookinons`** dans la vue logique en dessous du package **`UC Rechercher un Ouvrage`**. 
 
@@ -54,7 +54,7 @@ En vue de la préparation de la phase d'implémentation, dans le cadre de notre 
 Créer donc dans la **Vue logique**, les trois packages **`presentation`**, **`metier`**, **`application`**.  
 Pour plus de faciliter pour la suite, faîtes remonter à l'aide des flèches jaunes les packages créés comme premiers paquetage dans votre **Vue logique** afin d'obtenir une arborescence simialire à la suivante :
 
-![Vue logique et packages MVC](/images/DiagClasses_VueLogique.png)
+![Vue logique et packages MVC](images/DiagClasses_VueLogique.png)
 
 
 **N'oubliez pas de sauvegarder régulièrement votre projet au cours de ce tutoriel...**
@@ -62,7 +62,7 @@ Pour plus de faciliter pour la suite, faîtes remonter à l'aide des flèches ja
 
 ## Créer une classe <a id="creerClasse"></a>
 
-![Classe](/images/DiagClasses_Classe.png)
+![Classe](images/DiagClasses_Classe.png)
   
 Une **classe** (**`Class`**) est un ***élément de type *noeud***.    
 Dans Modelio, l'élément **`Class`** est associé au groupe **`Class Model`** de la palette graphique. 
@@ -81,7 +81,7 @@ Puis rendez-vous dans la **vue logique** pour déplacer cette classe dans le pac
 
 ## Ajouter un attribut à une classe <a id="ajouterAttribut"></a>
 
-![Attribut](/images/DiagClasses_Attribut.png)
+![Attribut](images/DiagClasses_Attribut.png)
 
 Sous Modelio, un **attribut** (**`Attribute`**) est associé au groupe **`Class Model`** de la palette graphique. 
 
@@ -95,9 +95,9 @@ Cliquez sur la classe **`Livre`** pour la sélectionner, appuyez sur **`A`**, pu
 
 Ajoutez trois nouveaux attributs : **`langue`** **`dateParution`** et **`dateParution`** de manière à obtenir une classe similaire à la classe ci-après.
 
-![Premiere Classe Livre](/images/DiagClasses_PremiereClasse.png)
+![Premiere Classe Livre](images/DiagClasses_PremiereClasse.png)
 
-**Rappel:** Vous pouvez redimensionner automatiquement la taille de votre classe grâce à utiliser l'icône ![Retaillage automatique](/images/auto_size.png).
+**Rappel:** Vous pouvez redimensionner automatiquement la taille de votre classe grâce à utiliser l'icône ![Retaillage automatique](images/auto_size.png).
 
 #### Propriétés d'un attribut
 
@@ -125,11 +125,11 @@ Modifiez de même la propriété **`Type`** de l'attribut **`string`** en transf
 
 Votre classe **`Livre`** est désormais similaire à la classe suivante :  
 
-![Premiere Classe Livre avec modification des propriétés des attributs](/images/DiagClasses_PremiereClasse_AttributsRevus.png)
+![Premiere Classe Livre avec modification des propriétés des attributs](images/DiagClasses_PremiereClasse_AttributsRevus.png)
 
 ## Ajouter une opération à une classe <a id="ajouterOperation"></a>
 
-![Operation](/images/DiagClasses_Operation.png)
+![Operation](images/DiagClasses_Operation.png)
 
 Sous Modelio, une **opération** (**`Operation`**) est associé au groupe **`Class Model`** de la palette graphique. 
 
@@ -146,7 +146,7 @@ Pour le moment, nous ne souhaitons pas créer d'opérations dans nos classes.
 
 Afin de mettre en pratique tout ce qui prècède, créez deux autres classes **`Editeur`** et **`Auteur`** sur votre diagramme de classes. Ces classes devront se trouver dans le paquetage **`metier`** et votre diagramme de classes doit être conforme au diagramme ci-après :
 
-![DiagActivité_Exo1](/images/DiagClasses_Exo1.png)
+![DiagActivité_Exo1](images/DiagClasses_Exo1.png)
 
 **Remarque:** 
 
@@ -172,7 +172,7 @@ Cliquez sur la classe destination de  l'association : **`Editeur`**.
 
 **Remarque:** Un raccourci clavier est également disponible pour créer plus rapidement une association. Il s'agit de **`ESPACE`**.
 
-![Association](/images/DiagClasses_Association.png)
+![Association](images/DiagClasses_Association.png)
 
 Comme l'indique la figure ci-dessous, par défaut :
 
@@ -263,7 +263,7 @@ Puis, si vous voulez pousser votre réflexion, vous préférez surement faire ap
 
 Créez une nouvelle association créer la classe **`Livre`** et la classe**`Auteur`** et jouez sur les différentes propriétés des associations pour obtenir un diagramme de classes similaire au diagramme suivant :  
 
-![Jouez avec les associations](/images/DiagClasses_AssociationPratique.png)
+![Jouez avec les associations](images/DiagClasses_AssociationPratique.png)
 
 
 ## Créer une association réflexive <a id="creerAssociationReflexive"></a>
@@ -278,18 +278,18 @@ Modifiez le rôle, les multiplicités et donnez un nom à votre association afin
 
 Vous devriez obtenir une modélisation similaire à la modélisation ci-dessous :
 
-![Association Reflexive](/images/DiagClasses_AssociationReflexive.png)
+![Association Reflexive](images/DiagClasses_AssociationReflexive.png)
 
 ## Exercice : Réaliser une première ébauche du diagramme de classes <a id="aVosCrayons_Exo2"></a>
 
 Après avoir rajouté dans le package **`metier`**, une nouvelle classe **`Catalogue`**, entraînez-vous à manipuler les éléments du diagramme de classes vus précédemment afin d'obtenir un diagramme de classes conforme à la représentation suivante :
 
-![DiagActivité_Exo2](/images/DiagClasses_Exo2.png)
+![DiagActivité_Exo2](images/DiagClasses_Exo2.png)
 
 
 ## Créer un qualifieur <a id="creerQualifieur"></a> 
 
-![Qualifieur](/images/DiagClasses_Qualifieur.png)  
+![Qualifieur](images/DiagClasses_Qualifieur.png)  
 
 Un qualificateur est **un attribut** de l'association.  
 Il apparaît dans une boîte rectangulaire à l'**extrémité dune association**. 
@@ -330,7 +330,7 @@ Vous devez donc changer la multiplicité du côté de la classe **`Livre`** et t
 
 Une fois toutes ces transformations effectuées, votre diagramme de classes devrait ressembler au diagramme suivant :
 
-![Diagramme de classes avec qualifieur](/images/DiagClasses_DiagrammeAvecQualifieur.png)  
+![Diagramme de classes avec qualifieur](images/DiagClasses_DiagrammeAvecQualifieur.png)  
 
 
 
@@ -344,13 +344,13 @@ Nous avons décidé de transformer l'**association** entre **`Catalogue`** et **
 ***Un** catalogue *est composé* **de un ou plusieurs** livres*.  
 La composition devra donc être modélisée **du côté de la classe `Catalogue`**.
 
-Sur le diagramme de classes, placez-vous sur l'association entre **`Catalogue`** et **`Livre`**, rendez-vous dans la **vue Element** et modifiez la propriété **`Association Type`** de la colonne **`Livre`**, de manière à faire apparaître le symbole de la composition ![Composition](/images/DiagClasses_Composition.png) du côté opposé c-a-d sur la classe **`Catalogue`**.
+Sur le diagramme de classes, placez-vous sur l'association entre **`Catalogue`** et **`Livre`**, rendez-vous dans la **vue Element** et modifiez la propriété **`Association Type`** de la colonne **`Livre`**, de manière à faire apparaître le symbole de la composition ![Composition](images/DiagClasses_Composition.png) du côté opposé c-a-d sur la classe **`Catalogue`**.
 
-Le symbole de  composition ![Composition](/images/DiagClasses_Composition.png) signifie "*est composée de*" : le nom de l'association entre **`Catalogue`** et **`Livre`** est maintenant explicite et superflu du fait de la présence de la notation graphique de la composition sur le diagramme. Supprimez donc le "*contient>*" de votre diagramme afin d'en alléger les notations pour en faciliter sa lisibilité.
+Le symbole de  composition ![Composition](images/DiagClasses_Composition.png) signifie "*est composée de*" : le nom de l'association entre **`Catalogue`** et **`Livre`** est maintenant explicite et superflu du fait de la présence de la notation graphique de la composition sur le diagramme. Supprimez donc le "*contient>*" de votre diagramme afin d'en alléger les notations pour en faciliter sa lisibilité.
 
 Votre diagramme doit maintenant être similaire au diagramme ci-dessous
 
-![Diagramme de classes avec composition](/images/DiagClasses_DiagrammeAvecComposition.png)  
+![Diagramme de classes avec composition](images/DiagClasses_DiagrammeAvecComposition.png)  
 
 #### Transformer une association en agrégation
 
@@ -370,12 +370,12 @@ En effet un thème peut être décomposé en sous-thèmes.
 
 Une fois toutes ces modifications effectuées, votre diagramme de classes doit être similaire au diagramme suivant :
 
-![DiagClasses_Exo3](/images/DiagClasses_Exo3.png)
+![DiagClasses_Exo3](images/DiagClasses_Exo3.png)
 
 **Astuce:** Pour réorganiser l'ordre des attributs dans une classe, il faut, pour l'instant, utiliser l'astuce suivante. Créez une nouvelle classe temporaire sur votre diagramme. Déplacez tous les attributs dans cette nouvelle classe, puis redéplacez les attributs dans l'ordre souhaité dans leur nouvelle classe.
 
 **Remarque:** Toutes les classes devraient se trouver dans le package **`metier`** :
-![DiagClasses_PaquetageMetier](/images/DiagClasses_Metier.png)
+![DiagClasses_PaquetageMetier](images/DiagClasses_Metier.png)
 
 
 
@@ -385,7 +385,7 @@ Il existe des raccourcis pour créer plus facilement les diagrammes de classes.
 
 Le manuel utilisateur propose un tableau récapitulant les [raccourcis de création dans les diagrammes classes](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_shortcuts_class_diagram)
 
-![Raccourcis Diagramme d'activités extraits du Manuel utilisateur](/images/DiagClasses_Raccourcis.png)
+![Raccourcis Diagramme d'activités extraits du Manuel utilisateur](images/DiagClasses_Raccourcis.png)
 
 ## Recenser les différents éléments spécifiques aux diagramme de classes <a id="elements_DiagClasses"></a>
 
@@ -400,7 +400,7 @@ Les chapitres **7.Common Structures**, **8.Values**, **9.Classification**, **10.
 
 Pour un diagramme de classes, la palette graphique propose les éléments spécifiques suivants :
 
-![Elements Modelio pour un diagramme de classes ](/images/DiagClasses_ElementsModelio.png)
+![Elements Modelio pour un diagramme de classes ](images/DiagClasses_ElementsModelio.png)
 
 Ces éléments respectent la terminologie énoncée dans le [Normative Documents](http://www.omg.org/spec/UML/2.5/PDF/) (spécification d'UML). 
 

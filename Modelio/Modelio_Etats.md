@@ -37,7 +37,7 @@ Rendez-vous donc, dans de la vue **Model**, sur le package **`Vue logique`**, pu
 Sélectionnez le type de diagramme **`State Machine diagram`**
 Renommez-le, par exemple en **`DET_Commande`**.  
 Cliquez sur **OK** pour valider la création du diagramme.
-![Création Diagramme d'états](/images/DiagEtats_Creation.png)
+![Création Diagramme d'états](images/DiagEtats_Creation.png)
 
 La **vue Modèle** est alors mise à jour avec le nom de notre nouveau diagramme : **DS_RechercherOuvrage`**.
 
@@ -54,7 +54,7 @@ Commencez par placer sur votre diagramme d'états, par glisser-déposer à parti
 * un état (**`State`**) que vous renommerez **`En cours de création`**
 * une transition (**`Transition`**) entre l'état initial et l'état **`En cours de création`** comme le montre la figure suivante :
 *
-![Début du diagramme d'états](/images/DiagEtats_Etats_Transition.png)
+![Début du diagramme d'états](images/DiagEtats_Etats_Transition.png)
 
 #### Renseigner les propriétés d'une transition
 
@@ -62,7 +62,7 @@ Sélectionnez la transition et rendez-vous dans la **Vue Element**.
 Les propriétés de la transition permettent de paramétrer la transition.  
 Par exemple, l'évenement déclencheur de cette première transition est **`passer commande`**. Renseignez la propriété **`Received event`** avec cette valeur comme le montre la figure ci-dessous.
 
-![Propriété d'une transition](/images/DiagEtats_Transition_Evenement.png)
+![Propriété d'une transition](images/DiagEtats_Transition_Evenement.png)
 
 **Remarque:** Une fois la valeur de la propriété **`Received event`** saisie, il est important d'appuyer sur la touche **Entrée** pour pouvoir valider cette valeur.
 Faites un petit **`Ctrl + Espace`** pour en savoir plus, n'oubliez pas que l'autocomplétion est là pour cous aider ...
@@ -72,14 +72,14 @@ Faites un petit **`Ctrl + Espace`** pour en savoir plus, n'oubliez pas que l'aut
 Ce paramétrage n'apparaît pas sur votre diagramme d'états. C'est normal.  
 Par défaut le *label* de la transition est caché, pour le rendre *visible*, vous devez vous rendre dans la **Vue Symbol** de la transition et cocher la propriété **`Show label`** qui permet de faire apparaître sur la transition, entre autres, l'événement paramétré dans les propriétés comme le montre la figure ci-dessous : 
 
-![Label d'une transition](/images/DiagEtats_Transition_Evenement_AvecLabel.png)
+![Label d'une transition](images/DiagEtats_Transition_Evenement_AvecLabel.png)
 
 
 ## Exercice : Réaliser le diagramme d'états pour un objet de la classe `Commande` <a id="aVosCrayons_Exo1"></a>
 
 Grâce à vos connaissances acquises sous Modélio lors de l'ellaboration des précédents diagrammes, vous devriez être en mesure de réaliser, de manière autonome, le diagramme d'états suivant :
 
-![Diagramme d'états de la commande Exo](/images/DiagEtats_Exo_Commande.png)
+![Diagramme d'états de la commande Exo](images/DiagEtats_Exo_Commande.png)
 
 
 
@@ -88,10 +88,10 @@ Grâce à vos connaissances acquises sous Modélio lors de l'ellaboration des pr
 * Vous pouvez constater que le diagramme d'activité est très proche du diagramme d'états-transitions. Les 2 diagrammes se distinguent par leur domaine de prédilection :
 
 	* plus proche des objets métiers pour le diagramme d'états-transitions.  
-![Etat](/images/DiagEtats_Etat.png)
+![Etat](images/DiagEtats_Etat.png)
 
 	* dynamique et plutôt orienté utilisateur pour le diagramme d'activité à base d'actions  
-![Action](/images/DiagActivite_Action.png)
+![Action](images/DiagActivite_Action.png)
 
 
 
@@ -101,7 +101,7 @@ Il existe des raccourcis pour créer plus facilement les diagrammes d'états.
 
 Le manuel utilisateur propose un tableau récapitulant les [raccourcis de création dans les diagrammes d'états](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_shortcuts_state_diagram)
 
-![Raccourcis Diagramme de séquences extraits du Manuel utilisateur](/images/DiagEtats_Raccourcis.png)
+![Raccourcis Diagramme de séquences extraits du Manuel utilisateur](images/DiagEtats_Raccourcis.png)
 
 ## Recenser les différents éléments spécifiques aux diagrammes d'états <a id="elements_DiagEtats"></a>
 
@@ -116,7 +116,7 @@ Les chapitres **14.StateMachines** du [Normative Documents](http://www.omg.org/s
 
 Pour un diagramme d'états, la palette graphique propose les éléments spécifiques suivants :
 
-![Elements Modelio pour un diagramme d'états](/images/DiagEtats_ElementsModelio.png)
+![Elements Modelio pour un diagramme d'états](images/DiagEtats_ElementsModelio.png)
 
 Ces éléments respectent la terminologie énoncée dans le [Normative Documents](http://www.omg.org/spec/UML/2.5/PDF/) (spécification d'UML). 
 
@@ -158,7 +158,7 @@ Les diagrammes d'états-transitions pourront donc se trouver directement à la r
 
 * Il y aura également **1 diagramme d'états-transitions** par objet complexe, directement stocké à la racine de la vue logique ou dans un paquetage dédié.
 
-![Arborescence de bookinons](/images/DiagEtats_Arborescence.png)
+![Arborescence de bookinons](images/DiagEtats_Arborescence.png)
 
 
 

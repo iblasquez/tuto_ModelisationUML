@@ -51,11 +51,11 @@ Sélectionnez le type de diagramme **`Activity diagram`**
 Renommez-le, par exemple en **`AD_RechercherUnOuvrage `**.  
 Vérifiez que le propriétaire du diagramme est bien **UC Rechercher un Ouvrage** c-a-d l'élément sélectionné au départ.
 Cliquez sur **OK** pour valider la création du diagramme.
-![Création Diagramme Activite](/images/DiagActivite_Creation.png)
+![Création Diagramme Activite](images/DiagActivite_Creation.png)
 
 La **vue Modèle** est alors mise à jour avec le nom de notre nouveau diagramme : **`AD_RechercherUnOuvrage`** dans la vue logique en dessous du package **`UC Rechercher un Ouvrage`**.  
 
-![Création Diagramme Activite dans la vue logique](/images/DiagActivite_Creation_DansVueLogique.png)
+![Création Diagramme Activite dans la vue logique](images/DiagActivite_Creation_DansVueLogique.png)
 
 **N'oubliez pas de sauvegarder régulièrement votre projet au cours de ce tutoriel...**
 
@@ -88,7 +88,7 @@ Un scénario nominal commence toujours par ***un état initial*** ...
 
 ## Créer un état initial <a id="creerEtatInitial"></a>
 
-![Etat Initial](/images/DiagActivite_InitialNode.png)
+![Etat Initial](images/DiagActivite_InitialNode.png)
   
 Un **état initial** (**`Initial Node`**) est un ***élément de type *noeud***.    
 Dans Modelio, l'élément **`Initial Node`** est associé au groupe **`Control Nodes`** de la palette graphique. 
@@ -115,7 +115,7 @@ Ces différentes possibilités en jetant un petit coup d'oeil à la rubrique **C
 
 ## Créer une action <a id="creerAction"></a>
 
-![Action](/images/DiagActivite_Action.png)
+![Action](images/DiagActivite_Action.png)
   
 Une **action** (**`Action`**) est un ***élément de type *noeud***.    
 Dans Modelio, l'élément **`Action`** est associé au groupe **`Control Nodes`** de la palette graphique. 
@@ -125,7 +125,7 @@ Pour ajouter une nouvelle **action**, sélectionnez **`Action`** du groupe **`Co
 
 Consultez également la **vue Modèle**  pour constater que l' **Action** a bien été ajouté.
 
-***Conseil:** Pour redimensionner automatiquement la taille de votre action, n'hésitez pas à utiliser l'icône ![Retaillage automatique](/images/auto_size.png) (accessible dans la barre d'outils de la **vue d'Edition des diagrammes**, à côté des icônes correspondant aux différents choix d'alignement).*
+***Conseil:** Pour redimensionner automatiquement la taille de votre action, n'hésitez pas à utiliser l'icône ![Retaillage automatique](images/auto_size.png) (accessible dans la barre d'outils de la **vue d'Edition des diagrammes**, à côté des icônes correspondant aux différents choix d'alignement).*
 
 
 #### Nommer, annoter et redimensionner une action
@@ -146,14 +146,14 @@ Pour plus explicite cette activité, on peut choisir d'y ajouter la note suivant
 **`Chargement des pages Nouveautés et Meilleures Ventes`**, afin d'obtenir la configuration ci-dessous.  
 *Rappels :   
  * L'élément **`Note`** est disponible dans le groupe **Common** de la palette graphique.  
- * Pensez à utiliser l'icône ![Retaillage automatique](/images/auto_size.png) pour redimensionner rapidement les éléments à la bonne taille !* 
+ * Pensez à utiliser l'icône ![Retaillage automatique](images/auto_size.png) pour redimensionner rapidement les éléments à la bonne taille !* 
 
-![Action](/images/DiagActivite_PremiereAction.png)
+![Action](images/DiagActivite_PremiereAction.png)
 
 
 ## Créer une transition <a id="creerTransition"></a>
 
-![Transition](/images/DiagActivite_Transition.png)
+![Transition](images/DiagActivite_Transition.png)
   
 Une **transition** (**`Flow`**) est un ***élément de type *lien***.    
 Dans Modelio, l'élément **`Flow`** est associé au groupe **`Flows`** de la palette graphique. 
@@ -169,7 +169,7 @@ Cette transition est *automatique* dès que l'état initial est fini : elle n'a 
 Consultez le **package Vue logique** dans la vue Modèle.  
 Vous constatez que dans cette vue, l**`Initial Node`** (point de départ de la transition) possède désormais une arborescence avec la transition que nous venons d'ajouter sur le diagramme. Cette dernière est alors représentée par une icône de de type **Control Flow** associée au nom de l'action **`Charger données et afficher écran de recherche`** (point destination de la transition).
 
-![Vue logique avec transition](/images/DiagActivite_VueLogique_AvecTransition.png)
+![Vue logique avec transition](images/DiagActivite_VueLogique_AvecTransition.png)
 
 #### Paramétrer la transition
 Les vues **Element** et **Symbol** permettent de paramatrer un élément.
@@ -179,7 +179,7 @@ Nous allons pouvoir modifier l'apparence de la transition en jouant sur les prop
 Double-cliquez sur la **transition** et rendez-vous dans sa vue **Element**.
 La propriété **`line width`** de **Control Flow** permet par exemple de jouer sur l'épaisseur du trait de la transition. Par exemple avec une valeur **`3`**, la transition apparaît mieux sur le diagramme...
 
-![Première transition](/images/DiagActivite_PremiereTransition.png)
+![Première transition](images/DiagActivite_PremiereTransition.png)
 
 **Remarque:** Vous pouvez modifier l'apparence des élément de manière ponctuelle, comme nous venons de le faire.  
 Avec Modelio, il est également possible ***créer vos propres styles pour vos diagrammes***. La rubrique **[Définir les options graphiques dans les diagrammes](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_diagrams_graphic_options)** décrit les différentes étapes pour cela.
@@ -188,7 +188,7 @@ N'hésitez pas à la consulter, si vous êtes intéressés nous ne procéderons 
 
 ## Créer un état final <a id="creerEtatFinal"></a>
 
-![Etat Final](/images/DiagActivite_FinalNode.png)
+![Etat Final](images/DiagActivite_FinalNode.png)
   
 Un **état final** (**`Activity Final Node`**) est un ***élément de type *noeud***.    
 Dans Modelio, l'élément **`Activity Final Node`** est associé au groupe **`Control Nodes`** de la palette graphique. 
@@ -217,7 +217,7 @@ Ceux correspondant aux éléments que nous venons de créer sont :
 
 Le manuel utilisateur propose un tableau récapitulant les [raccourcis de création dans les diagrammes d'activités](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_shortcuts_activity_diagram)
 
-![Raccourcis Diagramme d'activités extraits du Manuel utilisateur](/images/DiagActivite_Raccourcis.png)
+![Raccourcis Diagramme d'activités extraits du Manuel utilisateur](images/DiagActivite_Raccourcis.png)
 
 ## Exercice : Commencer par le scénario nominal du UC Rechercher un Ouvrage <a id="aVosCrayons_Exo1"></a>
 
@@ -231,7 +231,7 @@ Veillez à bien aligner vos activités et vos transitions : votre diagramme sera
 
 Vous devriez obtenir un diagramme conforme au diagramme ci-après :
 
-![DiagActivité_Exo1](/images/DiagActivite_Exo1.png)
+![DiagActivité_Exo1](images/DiagActivite_Exo1.png)
 
 Peu importe si vos noms d'actions ne sont pas les mêmes que celles du diagramme ci-dessus, ce qui est important c'est que vos actions soient assez explicites pour qu'un client non informaticien puisse lire et comprendre votre diagramme.
 Veillez à ce que vos noms d'actions ne soient pas être trop longs pour permettre une meilleure lisibilité (vous avez bien sûr remarqué que l'on a rajouté une note sur la première action...)
@@ -255,7 +255,7 @@ Pour modéliser une alternative sur le diagramme d'activité, on va utiliser une
 
 ## Créer une décision <a id="creerDecision"></a>
 
-![Decision](/images/DiagActivite_Decision.png)
+![Decision](images/DiagActivite_Decision.png)
   
 Une **décision** (**`Decision-Merge`**) est un ***élément de type *noeud***.    
 Dans Modelio, l'élément **`Decision-Merge`** est associé au groupe **`Control Nodes`** de la palette graphique. 
@@ -278,7 +278,7 @@ Créez une **nouvelle transition** de la première action vers la *décision*,
 puis une autre **nouvelle transition** de la *décision* vers la seconde action.  
 Créez une **nouvelle action** **`Appel UC Recherche détaillée d'un ouvrage`** et ajouter une **nouvelle transition** entre la *décision* et cette nouvelle action diagramme, afin d'obtenir un bout de diagramme similaire à celui ci-après :
 
-![Premiere Decision](/images/DiagActivite_PremiereDecision.png)
+![Premiere Decision](images/DiagActivite_PremiereDecision.png)
 
 #### Expliciter une décision
 
@@ -303,7 +303,7 @@ On parle alors **transition guardée**(notion revue dans les diagrammes d'états
 
 Ajoutez maintenant une **`Guard`** de valeur **`[Non]`** à la transition qui mène à l'action du flot altenatif à savoir la recherche détaillée d'un ouvrage afin d'obtenir le diagramme suivant :
 
-![Premiere Decision Gardée](/images/DiagActivite_PremiereDecisionGardee.png)
+![Premiere Decision Gardée](images/DiagActivite_PremiereDecisionGardee.png)
 
 ##### Terminer le scénario alternatif de la recherche avancée
 
@@ -313,7 +313,7 @@ L'action suivant l'action **`Appel UC Recherche détaillée d'un ouvrage`** est 
 
 Il suffit donc d'ajouter sur notre diagramme une nouvelle transition de manière à obtenir un diagramme d'activité similaire au diagramme ci-après qui montre comment le scénario alternatif *se branche* sur le scénario nominal :
 
-![Premiere Scénario Alternatif](/images/DiagActivite_PremierScenarioAlternatif.png)
+![Premiere Scénario Alternatif](images/DiagActivite_PremierScenarioAlternatif.png)
 
 ## Exercice : Représenter l'ensemble des scénarios du UC Rechercher un Ouvrage <a id="aVosCrayons_Exo2"></a>
 
@@ -325,7 +325,7 @@ Si votre réponse est positive, mettez en place une décision et modélisez à l
 
 Vous devriez obtenir un diagramme conforme au diagramme ci-après :
 
-![DiagActivité_Exo2](/images/DiagActivite_Exo2.png)
+![DiagActivité_Exo2](images/DiagActivite_Exo2.png)
 
 Pour une meilleure lisibilité, la valeur de **`3`** a été attribuée à la propriété **`line width`** des (**`Control Flow`**) dans la **vue Symbol** pour augmenter l'épaisseur du trait des transitions. 
 
@@ -346,7 +346,7 @@ Les chapitres **15.Activites** et **16.Action** du [Normative Documents](http://
 
 Pour un diagramme d'activités, la palette graphique propose les éléments spécifiques suivants :
 
-![Elements Modelio pour un diagramme d'activités ](/images/DiagActivite_ElementsModelio.png)
+![Elements Modelio pour un diagramme d'activités ](images/DiagActivite_ElementsModelio.png)
 
 Ces éléments respectent la terminologie énoncée dans le [Normative Documents](http://www.omg.org/spec/UML/2.5/PDF/) (spécification d'UML). 
 

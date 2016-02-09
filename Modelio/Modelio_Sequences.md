@@ -41,11 +41,11 @@ Rendez-vous donc, dans de la vue **Model**, sur le package **`UC Rechercher un O
 Sélectionnez le type de diagramme **`Sequence diagram`**
 Renommez-le, par exemple en **`DS_RechercherOuvrage`**.  
 Cliquez sur **OK** pour valider la création du diagramme.
-![Création Diagramme de sequence](/images/DiagSequence_Creation.png)
+![Création Diagramme de sequence](images/DiagSequence_Creation.png)
 
 La **vue Modèle** est alors mise à jour avec le nom de notre nouveau diagramme : **DS_RechercherOuvrage`**.
 
-![Vue logique et packages MVC](/images/DiagSequence_VueLogique.png)
+![Vue logique et packages MVC](images/DiagSequence_VueLogique.png)
 
 
 **N'oubliez pas de sauvegarder régulièrement votre projet au cours de ce tutoriel...**
@@ -78,7 +78,7 @@ Placez-vous donc dans la **vue Model** sur l'acteur **`Internaute`** (qui devrai
 Cliquez sur cet acteur et faites le glisser sur votre diagramme de séquence.    
 Un objet **`r: Internaute`** avec une icône d'acteur apparaît alors dans le diagramme avec sa ligne de vie.
 
-![Acteur](/images/DiagSequence_Acteur.png)
+![Acteur](images/DiagSequence_Acteur.png)
 
 
 ### Faire apparaître sur le diagramme un objet d'une classe non existante
@@ -100,7 +100,7 @@ Il ne vous reste plus qu'à la glisser-déposer sur votre diagramme pour qu'elle
 
 Un objet **`r1: RechercherOuvrageIHM`** avec une icône de classe apparaît alors avec sa ligne de vie.
 
-![Acteur](/images/DiagSequence_ObjetIHM.png)
+![Acteur](images/DiagSequence_ObjetIHM.png)
 
 **Remarque :** 
 
@@ -144,11 +144,11 @@ Faites apparaître un objet de la classe **`Catalogue`** du paquetage **`metier`
 Votre diagramme de séquence doit alors être similaire au suivant :
 
 
-![Premiers objets sur le diagramme de séquence](/images/DiagSequence_Exo1.png)
+![Premiers objets sur le diagramme de séquence](images/DiagSequence_Exo1.png)
 
 avec une **Vue Logique** similaire à :
 
-![Vue Modele des premiers objets](/images/DiagSequence_Exo1_VueLogique.png)
+![Vue Modele des premiers objets](images/DiagSequence_Exo1_VueLogique.png)
 
 Vous venez de mettre en place le squelette du diagramme de séquence qui respecte un modèle **MVC** (une classe métier pour le **M**odèle, une classe IHM pour la **V**ue et une classe **C**trl pour le **C**ontrôle).Nous allons maintenant pouvoir représenter sur ce diagramme l'enchaînement des messages.
 
@@ -178,7 +178,7 @@ Cliquez sur l'objet destinataire du message: **`RechercherOuvrageIHM`**.
 
 Rendez-vous ensuite dans la **vue Element** du message créé, grâce à la propriété **`Invoked`**, il ne vous reste plus qu'à choisir l'opération `debut` de la classe `RechercherOuvrageIHM` (**`RechercherOuvrageIHM::debut()`** pour faire apparaître le message sur votre diagramme de séquence de la manière suivante :
 
-![Message](/images/DiagSequence_Message.png)
+![Message](images/DiagSequence_Message.png)
 
 **Remarque:** Un raccourci clavier est également disponible pour créer plus rapidement un message. Il s'agit de **`ESPACE`**.
 
@@ -191,7 +191,7 @@ Crééz un nouveau **`Synchronous Message`** entre **`RechercherOuvrageIHM`** et
 Rendez-vous dans la **vue Element** et dans la propriété **`Name`** saisir  : **`rechercherDonneesPrealables`**.  
 Si vous consulter la classe **`RechercherOuvrageIHM`** dans la **vue Model**, vous constaterez que pour le moment aucune opération du même nom n'est présente dans cette classe.
 
-![Les deux premiers messages du diagramme de séquence](/images/DiagSequence_DeuxMessages.png)
+![Les deux premiers messages du diagramme de séquence](images/DiagSequence_DeuxMessages.png)
 
 
 **Remarque:**  
@@ -201,7 +201,7 @@ Or le but du diagramme de séquence est la découverte de nouveaux objets du sys
 
 Pour transformer un *nom* de message en **opération** de classe, il suffit de se positionner sur le message sur le diagramme de séquence, puis d'un clic droit sélectionnez (`Modeler Module -> Creer un operation depuis ce message`) et cliquez sur **`OK`**. L'opération est alors bien ajoutée à la classe **`RechercherOuvrageIHM`** comme l'indique la **vue Model** suivante :
 
-![Transformation d'un message en une opération](/images/DiagSequence_MessageOperation.png)
+![Transformation d'un message en une opération](images/DiagSequence_MessageOperation.png)
 
 
 #### Zoom sur les différents types de messages disponible dans Modelio
@@ -209,7 +209,7 @@ Pour transformer un *nom* de message en **opération** de classe, il suffit de s
 En fonction de ses besoins, il est possible de modéliser avec Modélio, des messagges autresque des messages synchrones (**`Synchronous Message`**).    
 Voici la liste des différents types de messages proprosés par la palette graphique :
 
-![Les messages](/images/DiagSequence_TypesDeMessages.png)
+![Les messages](images/DiagSequence_TypesDeMessages.png)
 
 
 
@@ -223,7 +223,7 @@ Il est tout à fait possible qu'un objet s'envoie un message à lui-même : c'es
 A partir d'un **`Synchronous Message`**, ajoutez le message réfléxif **`afficherEcranDeRecherche`** sur la ligne de vie de l'objet **`RechercherOuvrageIHM`**, de la manière suivante.  
 **Remarque :** *Après l'ajout du message, nous avons volontairement supprimé (touche **`SUPPR`**) le focus d'activité et le message retour pour ne garder que le message réfléxif sur notre diagramme.*
 
-![Message réflexif](/images/DiagSequence_MessageReflexif.png)
+![Message réflexif](images/DiagSequence_MessageReflexif.png)
 
 
 ## Paramétrer un message <a id="parametrerMessage"></a>
@@ -258,26 +258,26 @@ D'un clic droit sélectionnez (`Create element -> Interface`).
 Renommez cette interface en : **`IRechercherNouveautes`**. 
 Elle apparait dans la **Vue Model** avec l'icône ronde de l'interface.
 
-![Interface](/images/DiagSequence_VueLogique_Interface.png)
+![Interface](images/DiagSequence_VueLogique_Interface.png)
 
 
 Sélectionnez l'interface dans la **Vue Model** puis faites glisser vers le diagramme de séquence pour obtenir le quatrième objet de votre diagramme.  
 Remarquez que cet objet possède bien une icône d'interface.
 
-![Interface](/images/DiagSequence_Interface.png)
+![Interface](images/DiagSequence_Interface.png)
 
 Depuis la **Vue Model**, ajoutez dans l'interface **`IRechercherNouveautes`**, une **opération** que vous appelerez **`rechercherAllNouveautes`**.
 
 Sur votre diagramme, ajoutez en 3ème position un message invoquant l'opération **`rechercherAllNouveautes`** qui part du contrôleur (objet de type **`RechercherOUvrageCtrl`**) et qui arrive sur l'interface (objet de type **`IRechercherNouveautes`**) comme le montre le diagramme suivant :
 
 
-![Interface et Message](/images/DiagSequence_InterfaceAvecMessage.png)
+![Interface et Message](images/DiagSequence_InterfaceAvecMessage.png)
 
 #### Et maintenant l'interface `IRechercherMeilleuresVentes` ...
 
 De la même manière, créez une interface **`IRechercherMeilleuresVentes`** avec une **opération** **`rechercherAllMeilleuresVentes`** et insérez ce message dans votre diagramme afin d'obtenir une représentation similaire à la représentation suivante :
 
-![Deux Interfaces](/images/DiagSequence_DeuxInterfaces.png)
+![Deux Interfaces](images/DiagSequence_DeuxInterfaces.png)
 
 **Remarques :**
 
@@ -292,12 +292,12 @@ De la même manière, créez une interface **`IRechercherMeilleuresVentes`** ave
 
 Pour vous entraîner, vous compléter votre diagramme de séquence de la manière suivante, de façon à modéliser le flot de base du cas d'utilisation ***Rechercher un ouvrage***:  
 
-![Diagramme de séquence Exo](/images/DiagSequence_Exo2.png)
+![Diagramme de séquence Exo](images/DiagSequence_Exo2.png)
 
 
 **Remarque :** Les classes **`RechercherLivreCtrl`** et  **`RechercherThemeCtrl`** seront stockées dans le paquetage **`application`** .
 
-![Diagramme de séquence Exo](/images/DiagSequence_Exo2_VueLogique.png)
+![Diagramme de séquence Exo](images/DiagSequence_Exo2_VueLogique.png)
 
 
 ## Connaître les raccourcis autour du diagramme de séquence  <a id="raccourcisDiagrammeSequence"></a>
@@ -306,7 +306,7 @@ Il existe des raccourcis pour créer plus facilement les diagrammes de séquence
 
 Le manuel utilisateur propose un tableau récapitulant les [raccourcis de création dans les diagrammes de communication](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_shortcuts_communication_diagram)
 
-![Raccourcis Diagramme de séquences extraits du Manuel utilisateur](/images/DiagSequence_Raccourcis.png)
+![Raccourcis Diagramme de séquences extraits du Manuel utilisateur](images/DiagSequence_Raccourcis.png)
 
 ## Recenser les différents éléments spécifiques aux diagrammes de séquence <a id="elements_DiagSequence"></a>
 
@@ -321,7 +321,7 @@ Les chapitres **17.Interactions** du [Normative Documents](http://www.omg.org/sp
 
 Pour un diagramme de séquence, la palette graphique propose les éléments spécifiques suivants :
 
-![Elements Modelio pour un diagramme de sequence](/images/DiagSequence_ElementsModelio.png)
+![Elements Modelio pour un diagramme de sequence](images/DiagSequence_ElementsModelio.png)
 
 Ces éléments respectent la terminologie énoncée dans le [Normative Documents](http://www.omg.org/spec/UML/2.5/PDF/) (spécification d'UML). 
 

@@ -29,12 +29,12 @@ Nous finirons par :
 Rendez-vous dans le diagramme de classes et sélectionnez une classe, par exemple la classe **``Editeur`**.  
 Pour indiquer que la cette classe fera l'objet d’une génération de code, rendez-vous dans l'onglet **`Java`** en bas de votre fenêtre de travail et cochez **`Element Java`**.
 
-![Transformer une classe en élément JAVA](/images/GenerationCode_ElementJava_Classe.png)
+![Transformer une classe en élément JAVA](images/GenerationCode_ElementJava_Classe.png)
 
 
 Une icône apparaît alors en haut à droite à côté de du nom de la classe pour signifier que cette classe est bien un **`Element Java`**.
 
-![Icône élément JAVA](/images/GenerationCode_ElementJava_Classe_Icone.png)
+![Icône élément JAVA](images/GenerationCode_ElementJava_Classe_Icone.png)
 
 
 ## Personnaliser la génération de code d'un attribut <a id="personnaliserAttributJava"></a>
@@ -45,18 +45,18 @@ Cochez, par exemple les propriétés **Getteur** et **Setteur** pour indiquer qu
 Consultez alors la classe **`Editeur`** dans la **Vue Model**, vous constaterez que les méthodes
 **`Editeur`** et **`Editeur`** ont bien été ajoutées à la classe **`Editeur`**.
 
-![Getteur et Setteur](/images/GenerationCode_GetteurSetteur.png)
+![Getteur et Setteur](images/GenerationCode_GetteurSetteur.png)
 
 Pour les faire apparaître sur le diagramme de classes, glissez-déposez les de la **Vue Model** vers la classe **`Editeur`**.
 
-![Getteur et Setteur](/images/GenerationCode_GetteurSetteur_DC.png)
+![Getteur et Setteur](images/GenerationCode_GetteurSetteur_DC.png)
 
 
 ## Générer le code Java <a id="genererCodeJava"></a>
 
 Pour lancer la génération de code, il suffit de cliquer sur l'îcone générer en bas à droite de votre espace de travail.
 
-![Icone generer](/images/GenerationCode_IconeGenerer.png)
+![Icone generer](images/GenerationCode_IconeGenerer.png)
 
 Une autre solution consiste à se placer dans la vue Model, puis d'un clic doit à ouvrir un menu contextuel afin de choisir (`Java Designer -> Generer`).
 
@@ -67,7 +67,7 @@ Pour vous assurez que le code a bien été généré, vous pouvez consulter votr
 
 Pour éditer le code Java généré directement sous Modelio, placez-vous dans la **Vue Model** sur la classe **`Editeur.java`**, puis d'un clic droit sélectionnez (`Java Designer -> Editer`).
 
-![code Java de la classe Editeur](/images/GenerationCode_EditeurJava.png)
+![code Java de la classe Editeur](images/GenerationCode_EditeurJava.png)
 
 
  
@@ -100,7 +100,7 @@ Puis Transférez dans ce pakage les packages contenant les classes à savoir : *
 Transformez ensuite ce pakage en **`Element Java`**. 
 La génération de code portera alors sur l'ensemble de ce package.
 
-![Icône sur package com.modelio.bookinons et sous packages](/images/GenerationCode_Package.png)
+![Icône sur package com.modelio.bookinons et sous packages](images/GenerationCode_Package.png)
 
 
 
@@ -108,7 +108,7 @@ La génération de code portera alors sur l'ensemble de ce package.
 
 Transformez les classes des packages **`application`**,**`metier`** et **`service`** en **`Element Java`**.
 
-![package com.modelio.bookinons tout element Java](/images/GenerationCode_ArborescenceToutJava.png)
+![package com.modelio.bookinons tout element Java](images/GenerationCode_ArborescenceToutJava.png)
 
 Placez-vous sur le package **`com.modelio.bookinons`** de la **Vue Model** et **Générer** le code Java correspondant.
 

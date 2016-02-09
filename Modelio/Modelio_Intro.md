@@ -53,7 +53,7 @@ Dézippez ce fichier. **Modelio** est prêt à être utilisé !
 ## Lancer Modelio <a id="lancement"></a> 
 Lancer Modelio via l'icône 
 <img src="images/modelio_logo.jpg" alt="Icone Modelio" width="60">
-<!--[Icone Modelio"](/images/modelio_logo.jpg)-->
+<!--[Icone Modelio"](images/modelio_logo.jpg)-->
 
 Pour une première utilisation, fermez l'onglet **Welcome**.
 Cet onglet pourra être ré-ouvert à tout moment depuis le menu (`Help -> Welcome`).
