@@ -578,32 +578,8 @@ Les exemples concernant les diagrammes de cas d'utilisation sont disponibles  : 
 
 Ce tutoriel vous guide dans l'utilisation de [Modelio](https://www.modelio.org/) selon une démarche pseudo-RUP basé sur le modèle de Kruchten dit [modèle des 4 + 1 vues](https://fr.wikipedia.org/wiki/Architecture_logicielle#Le_mod.C3.A8le_des_4_.2B_1_vues), adopté dans l'[Unified Process](https://fr.wikipedia.org/wiki/Unified_process)
 
-*** explication !!!
 
-#### quelques mots sur l'aaproche 4+1
-
-#### Arborescence pour l'approche 4+1
-
-
-Créer la vue sécanrio ...
-![Vue des scénarios](images/Bookinons_Vue_UC.png)
-
-Enchainer avec l'approche 4+1 et demander de créer l'arboresceencte
-
-![Approche vue 4+1](images/Bookinons_Approche_4_1.png)
-Bookinons_Approche_4_1
-
-Ce tutoriel va vous guider dans l'utilisation de [Modelio](https://www.modelio.org/) selon une démarche pseudo-RUP basé sur le modèle de Kruchten dit [modèle des 4 + 1 vues](https://fr.wikipedia.org/wiki/Architecture_logicielle#Le_mod.C3.A8le_des_4_.2B_1_vues), adopté dans l'[Unified Process](https://fr.wikipedia.org/wiki/Unified_process)
-
-Pour en savoir plus sur l'approche 4+1 : 
-http://uml.free.fr/cours/i-p7.html
-https://fr.wikipedia.org/wiki/Architecture_logicielle
-
-
-***Remarque sur le choix de cette approche*** : L'*approche vues 4+1* permet de faire le lien entre la conception UML et la méthodologie (démarche) que nous allons adopter pour mener à bien notre projet. Cette démarche permettra de réaliser lors de différentes itérations, un enrichissement de l'étude basée sur UML : l'idée étant de partir des besoins utilisateurs et d'aller vers le code. Chaque étape permettra de mieux comprendre / modéliser le Système d'information.  
-Il est intéressant de remarquer que les approches objets basées sur UML ont pour caractéristique et avantage de « proposer » sans « imposer ».   
-Nous choisissons une **approche vue 4+1* pour organiser notre démarche et "classer nos diagrammes" mais les différents diagrammes UML pourraient tout aussi bien trouver leur place dans une autre approche.
-
+#### Quelques mots sur l'aaproche 4+1
 
 **L’approche *4+1 View Model*** propose 5 vues :  
 -	**Scenarios** : cette vue, appelée aussi vue des cas d'utilisation, guide toutes les autres vues car elle décrit les besoins attendus par chaque acteur du système. On dit souvent que
@@ -611,41 +587,38 @@ la vue scénario constitue  la "colle" qui unifie les 4 autres vues
 -	**Logical View** : cette vue décrit le comportement du système vu de l'intérieur. De haut niveau, cette vue se concentre sur l'abstraction et l'encapsulation : elle modélise les éléments et les mécanismes principaux du système.  
 -	**Developpment View** : cette vue décrit l'organisation logicielle du projet. De bas niveau (aussi appelée vue de réalisation), cette vue identifie les modules qui réalisent (physiquement) les classes de la vue logique, elle montre également l'organisation entre les composants et leurs dépendances.   
 -	**Physical View** : cette vue l'organisation matérielle du projet.Elle est très importante dans les environnements distribués.  
--	**Process View** : cette vue est intéressante dans les environnements multitâches car elle montre la décomposition du système en terme de processus.  
+-	**Process View** : cette vue est intéressante dans les environnements multitâches car elle montre la décomposition du système en terme de processus. 
+
+***Remarque sur le choix de cette approche*** : L'*approche vues 4+1* permet de faire le lien entre la conception UML et la méthodologie (démarche) que nous allons adopter pour mener à bien notre projet. Cette démarche permettra de réaliser lors de différentes itérations, un enrichissement de l'étude basée sur UML : l'idée étant de partir des besoins utilisateurs et d'aller vers le code. Chaque étape permettra de mieux comprendre / modéliser le Système d'information.  
+Il est intéressant de remarquer que les approches objets basées sur UML ont pour caractéristique et avantage de « proposer » sans « imposer ».   
+Nous choisissons une **approche vue 4+1** pour organiser notre démarche et *classer nos diagrammes* mais les différents diagrammes UML pourraient tout aussi bien trouver leur place dans une autre approche.
+
+#### Arborescence pour l'approche 4+1
+
+Commencez par créer un nouveau package que vous appelerez **Vue des cas d'utilisation** (appelée parfois également *Vue Scenario*).
+
+Placez dans ce package tous les éléments créés précdemment de manière à obtenir l'arborescence suivante :
+
+![Vue des scénarios](images/Bookinons_Vue_UC.png)
 
 
-Remarque : Dans le cadre de ce tutoriel, nous nous contenterons uniquement du Diagramme Global.
-Rappelons que nous appuyons notre démarche pseudo-RUP sur l’approche « vue 4+1 »  qui contient :
-la vue scénario (Scenarios) ou  vue des cas d'utilisation ainsi que :
--	la vue logique (Logical View)
--	la vue implantation (Developpment View) ou vue de réalisation
--	la vue déploiement (Physical View) 
--	et la vue processus (Process View) 
+Complétez cette arborescence en créant 4 nouveaux packages que vous nommerez : **`Vue logique`**, **`Vue de réalisation`**, **`Vue des processus`** et **`Vue de déploiement`** de manière à proposer dans la **Vue Model** une approche 4+1 similaire à la suivante :
 
-Quelques mots de rappel sur la vue Scénario …
+![Approche vue 4+1](images/Bookinons_Approche_4_1.png)
+
+
+
+#### Quelques mots de rappel sur la vue des cas d'utilisation
 La vue Scénario (celle des cas d’utilisations) que nous venons d'enrichir avec le diagramme de use case est la vue de référence : toutes les autres vues dépendent de celle-ci. 
 La vue scénario va permettre de partager les informations collectées (acteur et use case) avec les autres vues. En pratique, on rattache énormément de documentation à la vue scénario comme le cahier des charges ou la description détaillée des use case,…  La vue scénario est donc plutôt abstraite que technique.
 
-…Avant de passer à la vue Logique …
+#### Avant de passer à la vue Logique ...
 Le passage à la vue Logique permet de mettre en route les premières réflexions concrètes sur le futur logiciel. En s'appuyant sur plusieurs diagrammes dynamiques, la vue logique propose une série de vues du système d'information d'un niveau d'abstraction très élevé.
 La mise en place de la vue Logique se mène en permanence par rapport aux découvertes faites dans la vue Scénario. Les deux vues s'enrichissent mutuellement et il ne faut pas hésiter à passer de l'une à l'autre, à modifier l'une ET l'autre tout en avançant…
 
 
-*******************
-## ICI !!! => p.20 du tuto star UML
-********************
-
-Si vous décidez de suivre une approche vue 4+1 pour mener votre analyse (RUP ou pseudo-RUP), il est conseillé d'adopter l'arborescence suivante :
-
-![Approche 4+1](images/Approche_4_1.png)
-
-Dans ce cas-là, tout ce qui concerne les cas d'utilisation se retrouvera dans le vue Scénario.
-
-
-
 ***Mais gardez bien à l'esprit qu'UML est un LANGAGE...et pas une méthode d'analyse !!!***  
-
-Modéliser via des diagrammes UML doit vous permettre avant tout d'expliciter et d'éclaircir certains points de votre développement.  
+Modéliser via des diagrammes UML doit vous permettre avant tout d'expliciter et d'éclaircir certains points de votre développement. 
 Cet arborescence est donc optionnelle pour simplement communiquer via UML.  
 L'important est avant tout de savoir créer, comprendre et interpréter les différents diagrammes en utilisant le formalisme proposé par UML.
 
