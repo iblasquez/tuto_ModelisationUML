@@ -623,8 +623,6 @@ Cet arborescence est donc optionnelle pour simplement communiquer via UML.
 L'important est avant tout de savoir créer, comprendre et interpréter les différents diagrammes en utilisant le formalisme proposé par UML.
 
 
-### Continuer la tutoriel par la prise en main des [diagrammes d'activités](Modelio_Activites.md) (Use Case)
-
 
 ## Quelques liens utiles <a id="liens"></a>
 [Raccourcis de création dans les diagrammes de cas d'utilisation](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_shortcuts_usecase_diagram)
@@ -665,7 +663,9 @@ Vous trouvez dans cette partie les liens vers les parties du manuel utilisateur 
 * **vue Symbole** disponible : [ici](http://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki/Modeler-_modeler_diagrams_graphic_options)
 
 
-**Exemples de diagrammes réalisés avec Modélio :** disponibles [ici](https://www.modeliosoft.com/en/resources/diagram-examples.html) 
+**Exemples de diagrammes réalisés avec Modélio :** disponibles [ici](https://www.modeliosoft.com/en/resources/diagram-examples.html)
+
+### Continuez la tutoriel par la prise en main des [diagrammes d'activités](Modelio_Activites.md)  
 
 
 

@@ -347,3 +347,5 @@ Ce diagramme devient alors le diagramme actif de votre fenêtre de travail.
 
 Comme indiqué [ici](https://www.modeliosoft.com/fr/ressources/exemples-de-diagrammes/diagrammes-de-sequence.html), *UML2 a considérablement amélioré les diagrammes de séquence. Il est désormais possible de référencer d'autres diagrammes de séquence UML, de représenter des boucles et des choix, de définir des paramètres formels et actuels d'appel (gates), et ainsi de suite.*
 Grâce à ces nouvelles notations, certains flots alternatifs pourraient donc très bien être également représentés sur le même diagramme de séquence que le flot nominal. 
+
+### Continuez la tutoriel par la prise en main des [diagrammes de d'états](Modelio_Etats.md) 
