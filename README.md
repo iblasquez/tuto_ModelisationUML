@@ -24,7 +24,7 @@ mais également
 On appelle :
 
 * **forward engineering** : *the traditional process of moving from high-level abstractions and logical, implementation-independent designs to the physical implementation of a system.* (Extrait [FOLDOC](http://foldoc.org/forward%20engineering)).  
-Dans le cadre d'une modélisation à l'aide d'UML, le forward engineering consistera d'abord à concevevoir les diagrammes UML, puis à générer le code à partir de ces diagrammes.
+Dans le cadre d'une modélisation à l'aide d'UML, le forward engineering consistera d'abord à concevoir les diagrammes UML, puis à générer le code à partir de ces diagrammes.
 
 * **reverse engineering (rétro-ingénerie ou rétro-conception)** : l'*activité qui consiste à étudier un objet pour en déterminer le fonctionnement interne ou la méthode de fabrication.* 
  Une définition plus complète de la rétro-ingénérie en informatique est disponible [ici](https://fr.wikipedia.org/wiki/R%C3%A9tro-ing%C3%A9nierie#R.C3.A9tro-ing.C3.A9nierie_en_informatique).  
@@ -59,7 +59,7 @@ La dernière version est celle d'**UML 2.5**. Elle est disponible [ici](http://w
 
 ### Exemples d'utilisation du *Langage* UML
 
-**UML est un **L**angage.**
+**UML est un Langage.**
 A tout moment du développement, n'importe quel diagramme peut être utilisé pour communiquer et/ou pour expliciter un point précis (le diagramme choisi étant bien sûr adapté au problème à illustrer). Les diagrammes sont à la base indépendants les uns des autres.
 
 **UML n'est pas une méthodologie !**
