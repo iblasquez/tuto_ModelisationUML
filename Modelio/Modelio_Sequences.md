@@ -2,6 +2,8 @@
 
 [Les diagrammes de séquence montrent la modélisation d'une logique séquentielle illustrant la façon dont les différents objets coopèrent.](https://forge.modelio.org/projects/modelio-user-manual-french-22/wiki/Modeler-_modeler_diagrams_creating_diagram)
 
+Besoin d'un petit rappel sur les diagrammes de séquence ? [ici](http://agilemodeling.com/artifacts/sequenceDiagram.htm) et [là](http://agilemodeling.com/style/sequenceDiagram.htm)
+
 Nous considérons qu'arrivé(e) à ce point du tutoriel, vous avez réalisé les parties précédentes relative à la prise en main des [diagrammes de cas d'utilisation](Modelio_UseCase.md), des [diagrammes d'activités](Modelio_Activites.md) et des [diagrammes de classes](Modelio_Classes.md) et que vous savez désormais comment redimensionner un élément, le renommer, changer son apparence, le supprimer, l'annoter,...
 
 Dans ce tutoriel, nous nous verrons comment :
@@ -25,7 +27,8 @@ Nous finirons par :
 
 * [Recenser les différents éléments spécifiques aux diagrammes de séquence](#elements_DiagSequence)
 * [Des exemples de diagrammes de séquence réalisables avec Modelio](#exemplesDiagSequence)
-* [Quelques mots sur les diagrammesde séquence dans la démarche d'analyse du cours](#analyseUML_DiagSequence)
+* [Quelques mots sur les diagrammes de séquence dans la démarche d'analyse du cours](#analyseUML_DiagSequence)
+
 
 
 N'oubliez pas que vous pouvez, à tout moment, revenir consulter le [Zoom sur le manuel utilisateur](Modelio_UseCase.md#zoomManuelUtilisateurs) (récapitulatif de liens vers les différentes parties du manuel utilisateur utiles pour la création des diagrammes).
@@ -347,5 +350,7 @@ Ce diagramme devient alors le diagramme actif de votre fenêtre de travail.
 
 Comme indiqué [ici](https://www.modeliosoft.com/fr/ressources/exemples-de-diagrammes/diagrammes-de-sequence.html), *UML2 a considérablement amélioré les diagrammes de séquence. Il est désormais possible de référencer d'autres diagrammes de séquence UML, de représenter des boucles et des choix, de définir des paramètres formels et actuels d'appel (gates), et ainsi de suite.*
 Grâce à ces nouvelles notations, certains flots alternatifs pourraient donc très bien être également représentés sur le même diagramme de séquence que le flot nominal. 
+
+
 
 ### Continuez la tutoriel par la prise en main des [diagrammes de d'états](Modelio_Etats.md) 

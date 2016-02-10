@@ -3,6 +3,9 @@
 
 [Les diagrammes de classes présentent la structure interne des éléments et leur relations aux autre éléments.](https://forge.modelio.org/projects/modelio-user-manual-french-22/wiki/Modeler-_modeler_diagrams_creating_diagram)
 
+
+Besoin d'un petit rappel sur les diagrammes d'états ? [ici](http://agilemodeling.com/artifacts/classDiagram.htm) et [là](http://agilemodeling.com/style/classDiagram.htm)
+
 Nous considérons qu'arrivé(e) à ce point du tutoriel, vous avez réalisé les parties précédentes relative à la prise en main des [diagrammes de cas d'utilisation](Modelio_UseCase.md) et des [diagrammes d'activités](Modelio_Activites.md) et que vous savez désormais comment redimensionner un élément, le renommer, changer son apparence, le supprimer, l'annoter,...
 
 Dans ce tutoriel, nous nous verrons comment :

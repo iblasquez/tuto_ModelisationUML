@@ -29,6 +29,9 @@ mais également
 Tous les éléments UML sont définis et illustrés dans le **[Normative Documents](http://www.omg.org/spec/UML/2.5/PDF/)**.
 La dernière version est celle d'**UML 2.5**. Elle est disponible [ici](http://www.omg.org/spec/UML/2.5/)
 
+### Besoin d'un petit rappel sur un diagramme UML
+[Introduction to the Diagrams of UML 2.X](http://www.agilemodeling.com/essays/umlDiagrams.htm)
+
 
 ### Besoin d'un cours UML en ligne ? 
 [UML 2 par Laurent Audibert](http://laurent-audibert.developpez.com/Cours-UML/)  

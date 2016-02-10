@@ -1,7 +1,8 @@
 # Prise en main de Modélio : Diagrammes d'activités
 
-
 [Les diagrammes d’activités modélisent les procédures ou les workflows.](https://forge.modelio.org/projects/modelio-user-manual-french-22/wiki/Modeler-_modeler_diagrams_creating_diagram)
+
+Besoin d'un petit rappel sur les diagrammes d'activités ? [ici](http://agilemodeling.com/artifacts/activityDiagram.htm) et [là](http://agilemodeling.com/style/activityDiagram.htm)
 
 Nous considérons qu'arrivé(e) à ce point du tutoriel, vous avez réalisé la partie précédente relative à la prise en main des [diagrammes de cas d'utilisation](Modelio_UseCase.md) et que vous savez désormais comment redimensionner un élément, le renommer, changer son apparence, le supprimer, l'annoter,...
 

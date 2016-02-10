@@ -108,7 +108,9 @@ Le manuel utilisateur décrit en détail les différents outils et vues de cette
 
 
 ## Quelques liens utiles UML et modelio <a id="liens"></a>
-[uml.org](http://www.uml.org/)  
+[uml.org](http://www.uml.org/)
+[Introduction to the Diagrams of UML 2.X](http://www.agilemodeling.com/essays/umlDiagrams.htm)
+  
 [www.modelio.org]([https://www.modelio.org/)  
 [modeliosoft.com/](https://www.modeliosoft.com/)  
 [forge.modelio.org/](http://forge.modelio.org/)

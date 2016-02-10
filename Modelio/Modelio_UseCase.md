@@ -2,6 +2,8 @@
 
 [Les diagrammes de cas d’utilisation montrent les cas d'utilisation, les acteurs et les transitions, afin de décrire les services principaux rendus par le système.](https://forge.modelio.org/projects/modelio-user-manual-french-22/wiki/Modeler-_modeler_diagrams_creating_diagram)
 
+Besoin d'un petit rappel sur les diagrammes de cas d'utilisation ? [ici](http://agilemodeling.com/artifacts/useCaseDiagram.htm) et [là](http://agilemodeling.com/style/useCaseDiagram.htm)
+
 Dans ce tutoriel, nous verrons comment :
 
 * [Créer un diagramme de cas d'utilisation](#creerDiagrammeUC)

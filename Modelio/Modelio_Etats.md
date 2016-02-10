@@ -2,6 +2,9 @@
 
 [Les diagrammes d'états décrivent les différents états d'un objet, ainsi que les transitions entre les états.](https://forge.modelio.org/projects/modelio-user-manual-french-22/wiki/Modeler-_modeler_diagrams_creating_diagram)
 
+
+Besoin d'un petit rappel sur les diagrammes d'états ? [ici](http://agilemodeling.com/artifacts/stateMachineDiagram.htm) et [là](http://agilemodeling.com/style/stateChartDiagram.htm)
+
 Nous considérons qu'arrivé(e) à ce point du tutoriel, vous avez réalisé les parties précédentes relative à la prise en main des [diagrammes de cas d'utilisation](Modelio_UseCase.md), des [diagrammes d'activités](Modelio_Activites.md), des [diagrammes de classes](Modelio_Classes.md) et des [diagrammes de séquence](Modelio_Sequence.md) et que vous savez comment redimensionner un élément, le renommer, changer son apparence, le supprimer, l'annoter,...
 
 Dans ce tutoriel, nous verrons comment :
