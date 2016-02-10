@@ -10,7 +10,7 @@ les spécifications officielles qui sont disponibles à partir de [http://www.om
 De nombreux outils destinés à la modélisation graphique du langage UML existent. Une comparaison de ces différents logiciels est disponible à l'adresse suivante: [https://fr.wikipedia.org/wiki/Comparaison_des_logiciels_d'UML](https://fr.wikipedia.org/wiki/Comparaison_des_logiciels_d'UML)
 
 
-Nous nous intéressons dans ce tutoriel à **Modelio**, un outil de modélisation UML open source dont le site de référence est :[https://www.modelio.org/](https://www.modelio.org/).
+Nous nous intéressons dans ce tutoriel à **Modelio**, un outil de modélisation UML open source dont le site de référence est: [https://www.modelio.org/](https://www.modelio.org/).
 
 <!--Un aperçu de Modelio est disponible sur : [https://fr.wikipedia.org/wiki/Modelio](https://fr.wikipedia.org/wiki/Modelio)-->
 
@@ -27,7 +27,7 @@ Dans ce tutoriel, nous nous intéressons plus particulièrement :
 * aux [diagrammes d'états](Modelio_Etats.md)
 * à la [génération de code Java](Modelio_GenerationCodeJava.md)
 
-***Remarque:** Il est conseillé de suivre pas à pas les différentes étapes de ce tutoriel dans l'ordre ci-deddus. En effet, de nombreux détails seront donnés lors de la réalisation du premier diagramme (cas d'utilisation) et seront consiédérés comme acquis pour la suite des diagrammes.*
+**Remarque:** Il est conseillé de suivre pas à pas les différentes étapes de ce tutoriel dans l'ordre ci-dessus. En effet, de nombreux détails seront donnés lors de la réalisation du premier diagramme (cas d'utilisation) et seront consiédérés comme acquis pour la suite des diagrammes.*
 
 L'application à modéliser sera celle de l'étude de cas *bookinons*, inspirée du livre de Pascal Roques [UML 2 : Modéliser une application web](http://www.eyrolles.com/Informatique/Livre/uml-2-9782212123890).
 
@@ -58,7 +58,7 @@ Lancer Modelio via l'icône
 Pour une première utilisation, fermez l'onglet **Welcome**.
 Cet onglet pourra être ré-ouvert à tout moment depuis le menu (`Help -> Welcome`).
 
-## Choisir un workspace <a id="choixWorkspace"></a> *
+## Choisir un workspace <a id="choixWorkspace"></a> 
 
 Le workspace est le répertoire de travail dans lequel seront stockés tous vos projets.  
 Par défaut, Modelio utilise un workspace dans le dossier **`~/modelio`**
