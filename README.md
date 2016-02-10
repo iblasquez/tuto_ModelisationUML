@@ -18,7 +18,7 @@ Vous trouverez ici :
 	
 mais également
 
-* un tutoriel de prise en main de [ObjectAid UML](http://www.objectaid.com/) (*an agile and lightweight code visualization tool for the Eclipse IDE*) disponible dans le répertoire [ObjectAid](/ObjectAid)
+* un tutoriel de prise en main de [ObjectAid UML](http://www.objectaid.com/) (*an agile and lightweight code visualization tool for the Eclipse IDE*) disponible dans le répertoire [ObjectAid](/ObjectAid/README.md)
 
 
 On appelle :
