@@ -13,12 +13,29 @@ Une comparaison de ces différents logiciels UML est disponible sur Wikipédia �
 
 Vous trouverez ici :
 
-* un tutoriel de prise en main de [Modelio](https://www.modelio.org/) disponible dans le répertoire [Modelio](/Modelio/Modelio_Intro.md)
+* un tutoriel de prise en main de [Modelio](https://www.modelio.org/) disponible dans le répertoire [Modelio](/Modelio/README.md)
 * un tutoriel de prise en main de [STAR UML](http://staruml.io/) disponible dans le répertoire [STARUML](/StarUML)
 	
 mais également
 
 * un tutoriel de prise en main de [ObjectAid UML](http://www.objectaid.com/) (*an agile and lightweight code visualization tool for the Eclipse IDE*) disponible dans le répertoire [ObjectAid](/ObjectAid)
+
+
+On appelle :
+
+* **forward engineering** : *the traditional process of moving from high-level abstractions and logical, implementation-independent designs to the physical implementation of a system.* (Extrait [FOLDOC](http://foldoc.org/forward%20engineering)).  
+Dans le cadre d'une modélisation à l'aide d'UML, le forward engineering consistera d'abord à concevevoir les diagrammes UML, puis à générer le code à partir de ces diagrammes.
+
+* **reverse engineering (rétro-ingénerie ou rétro-conception)** : l'*activité qui consiste à étudier un objet pour en déterminer le fonctionnement interne ou la méthode de fabrication.* 
+ Une définition plus complète de la rétro-ingénérie en informatique est disponible [ici](https://fr.wikipedia.org/wiki/R%C3%A9tro-ing%C3%A9nierie#R.C3.A9tro-ing.C3.A9nierie_en_informatique).  
+Dans le cadre d'une modélisation à l'aide d'UML, le reverse engineering consistera à générer des diagrammes à partir du code source.
+
+* **roundtrip engineering** :*a functionality of software development tools that synchronizes two or more related software artifacts, such as, source code, models, configuration files, and even documentation.*(Extrait [Article Wikipedia : Round-trip engineering](https://en.wikipedia.org/wiki/Round-trip_engineering))  
+Le roundtrip engineering peut être vu comme étant à la fois du forward et du reverse engineering, puisque les diagrammes UML et le code sont constamment synchronisés (les modifications dans les modèles auront donc un impact direct sur le code et les modifications sur le code auront un impact sur les modèles).
+
+Une liste d'outils Java pour le reverse engineering est disponible [ici](http://tirthalpatel.blogspot.fr/2014/07/java-reverse-engineering-and-diagramming-tools.html)
+
+
 
 
 
@@ -29,7 +46,7 @@ mais également
 Tous les éléments UML sont définis et illustrés dans le **[Normative Documents](http://www.omg.org/spec/UML/2.5/PDF/)**.
 La dernière version est celle d'**UML 2.5**. Elle est disponible [ici](http://www.omg.org/spec/UML/2.5/)
 
-### Besoin d'un petit rappel sur un diagramme UML
+### Besoin d'un petit rappel sur un diagramme UML ?
 [Introduction to the Diagrams of UML 2.X](http://www.agilemodeling.com/essays/umlDiagrams.htm)
 
 
