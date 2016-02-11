@@ -116,12 +116,25 @@ Consultez le fichier **`src`** et jetez un petit coup d'oeil sur les classes en 
 
 ## Quelques mots sur le Round-trip engineering <a id="roundTrip"></a>
 
+[Wikipedia](https://en.wikipedia.org/wiki/Round-trip_engineering) définit de la manière suivante :
+
 > Round-trip engineering (RTE) is a functionality of software development tools that synchronizes two or more related software artifacts, such as, source code, models, configuration files, and even documentation.
-(Extrait [Article Wikipedia : Round-trip engineering](https://en.wikipedia.org/wiki/Round-trip_engineering))
 
-*Le round-trip va permettre que les modifications dans les modèles aient un impact direct sur le code et que les modifications sur le code aient un impact sur les modèles.*
-Pour en savoir plus sur le roundtrip et sa mise en oeuvre, vous pouvez consulter le [tutoriel de Pierre Gerard sur la Prise en main de Modelio](http://lipn.univ-paris13.fr/~gerard/uml-s2/uml-td03.html).
 
+Quant à la rubrique [Round-trip mode](http://forge.modelio.org/projects/javadesigner-modelio34-user-manual-english/wiki/Javadesigner-_javadeveloper_choose_functional_mode_round_trip_mode) du [Modelio Java Designer User Guide](http://forge.modelio.org/projects/javadesigner-modelio34-user-manual-english/wiki), elle introduit les principes du round-trip sous [Modelio](https://www.modelio.org/) comme suit :
+
+> Round-trip engineering is a functioning mode that combines code generation and reverse engineering.   
+> Code is generated in exactly the same way as with model driven engineering.  
+> Specific annotations are also generated, **@objid**, which are used during the reverse engineering phase to match code and model elements in Modelio.  
+> [...]   
+> the round-trip mode allows the model to be directly modified at code level. The code is then fully reversed, in order to update the model.
+
+![Image issue du Modelio Java Designer User Guide](http://forge.modelio.org/attachments/download/13251/roundtrip.png)
+
+Pour l'instant, retenons que le round-trip va permettre que les modifications dans les modèles aient un impact direct sur le code et que les modifications sur le code aient un impact sur les modèles.
+
+Un tutoriel pour ***Mettre en place le roundtrip Modelio/Eclipse à partir de fichiers Java existants*** sera prochainement disponible sur ce github.  
+En attendant, si vous souhaitez en savoir plus sur le roundtrip et sa mise en oeuvre, vous pouvez consulter le [tutoriel de Pierre Gerard sur la Prise en main de Modelio](http://lipn.univ-paris13.fr/~gerard/uml-s2/uml-td03.html).
 
 
 ## Un exemple de développement Java piloté par le modèle avec Modelio <a id="exemple_DevJavaPiloteModele"></a>

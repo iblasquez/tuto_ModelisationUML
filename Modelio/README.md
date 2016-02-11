@@ -115,7 +115,8 @@ Le manuel utilisateur décrit en détail les différents outils et vues de cette
 [modeliosoft.com/](https://www.modeliosoft.com/)  
 [forge.modelio.org/](http://forge.modelio.org/)
 
-[Manuel utilisateur de modelio en français](https://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki)   
+[Manuel utilisateur de modelio en français](https://forge.modelio.org/projects/modelio3-localization-usermanual-french-340/wiki)  
+[Modelio Java Designer User Guide](http://forge.modelio.org/projects/javadesigner-modelio34-user-manual-english/wiki)   
 
 [La rubrique UML de Wikipédia](https://fr.wikipedia.org/wiki/UML_%28informatique%29)  
 [La rubrique comparaison des logiciels UML de Wikipédia](https://fr.wikipedia.org/wiki/Comparaison_des_logiciels_d'UML)  
