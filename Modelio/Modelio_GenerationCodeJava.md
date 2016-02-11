@@ -116,7 +116,7 @@ Consultez le fichier **`src`** et jetez un petit coup d'oeil sur les classes en 
 
 ## Quelques mots sur le Round-trip engineering <a id="roundTrip"></a>
 
-[Wikipedia](https://en.wikipedia.org/wiki/Round-trip_engineering) définit de la manière suivante :
+[Wikipedia](https://en.wikipedia.org/wiki/Round-trip_engineering) propose la définition suivante :
 
 > Round-trip engineering (RTE) is a functionality of software development tools that synchronizes two or more related software artifacts, such as, source code, models, configuration files, and even documentation.
 
@@ -131,7 +131,7 @@ Quant à la rubrique [Round-trip mode](http://forge.modelio.org/projects/javades
 
 ![Image issue du Modelio Java Designer User Guide](http://forge.modelio.org/attachments/download/13251/roundtrip.png)
 
-Pour l'instant, retenons que le round-trip va permettre que les modifications dans les modèles aient un impact direct sur le code et que les modifications sur le code aient un impact sur les modèles.
+Pour l'instant, nous retiendrons que le round-trip va permettre que les modifications dans les modèles aient un impact direct sur le code et que les modifications sur le code aient un impact sur les modèles.
 
 Un tutoriel pour ***Mettre en place le roundtrip Modelio/Eclipse à partir de fichiers Java existants*** sera prochainement disponible sur ce github.  
 En attendant, si vous souhaitez en savoir plus sur le roundtrip et sa mise en oeuvre, vous pouvez consulter le [tutoriel de Pierre Gerard sur la Prise en main de Modelio](http://lipn.univ-paris13.fr/~gerard/uml-s2/uml-td03.html).
