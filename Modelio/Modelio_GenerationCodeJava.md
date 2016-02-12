@@ -18,16 +18,11 @@ Vous aurez quelques exercices à réaliser tout au long du tutoriel :
 * [Génerer le code Java des classes métiers](#aVosCrayons_Exo1)
 * [Génerer le code du projet](#aVosCrayons_Exo2)
 
-Nous finirons par :
-
-* [Quelques mots sur le Round-trip engineering](#roundTrip)
-* [Un exemple de développement Java piloté par le modèle avec Modelio](#exemple_DevJavaPiloteModele)
-
 
 ## Transformer une classe en **`Element Java`** <a id="transformerClasseEltJava"></a>
 
-Rendez-vous dans le diagramme de classes et sélectionnez une classe, par exemple la classe **``Editeur`**.  
-Pour indiquer que la cette classe fera l'objet d’une génération de code, rendez-vous dans l'onglet **`Java`** en bas de votre fenêtre de travail et cochez **`Element Java`**.
+Rendez-vous dans le diagramme de classes et sélectionnez une classe, par exemple la classe **`Editeur`**.  
+Pour indiquer que cette classe fera l'objet d’une génération de code, rendez-vous dans l'onglet **`Java`** en bas de votre fenêtre de travail et cochez **`Element Java`**.
 
 ![Transformer une classe en élément JAVA](images/GenerationCode_ElementJava_Classe.png)
 
@@ -68,10 +63,6 @@ Pour vous assurez que le code a bien été généré, vous pouvez consulter votr
 Pour éditer le code Java généré directement sous Modelio, placez-vous dans la **Vue Model** sur la classe **`Editeur.java`**, puis d'un clic droit sélectionnez (`Java Designer -> Editer`).
 
 ![code Java de la classe Editeur](images/GenerationCode_EditeurJava.png)
-
-
- 
-
 
 ## Exercice : Génerer le code Java des classes métiers <a id="aVosCrayons_Exo1"></a>
 
@@ -114,35 +105,6 @@ Placez-vous sur le package **`com.modelio.bookinons`** de la **Vue Model** et **
 
 Consultez le fichier **`src`** et jetez un petit coup d'oeil sur les classes en éditant leur code source.
 
-## Quelques mots sur le Round-trip engineering <a id="roundTrip"></a>
 
-[Wikipedia](https://en.wikipedia.org/wiki/Round-trip_engineering) propose la définition suivante :
-
-> Round-trip engineering (RTE) is a functionality of software development tools that synchronizes two or more related software artifacts, such as, source code, models, configuration files, and even documentation.
-
-
-Quant à la rubrique [Round-trip mode](http://forge.modelio.org/projects/javadesigner-modelio34-user-manual-english/wiki/Javadesigner-_javadeveloper_choose_functional_mode_round_trip_mode) du [Modelio Java Designer User Guide](http://forge.modelio.org/projects/javadesigner-modelio34-user-manual-english/wiki), elle introduit les principes du round-trip sous [Modelio](https://www.modelio.org/) comme suit :
-
-> Round-trip engineering is a functioning mode that combines code generation and reverse engineering.   
-> Code is generated in exactly the same way as with model driven engineering.  
-> Specific annotations are also generated, **@objid**, which are used during the reverse engineering phase to match code and model elements in Modelio.  
-> [...]   
-> the round-trip mode allows the model to be directly modified at code level. The code is then fully reversed, in order to update the model.
-
-![Image issue du Modelio Java Designer User Guide](http://forge.modelio.org/attachments/download/13251/roundtrip.png)
-
-Pour l'instant, nous retiendrons que le round-trip va permettre que les modifications dans les modèles aient un impact direct sur le code et que les modifications sur le code aient un impact sur les modèles.
-
-Un tutoriel pour ***Mettre en place le roundtrip Modelio/Eclipse à partir de fichiers Java existants*** sera prochainement disponible sur ce github.  
-En attendant, si vous souhaitez en savoir plus sur le roundtrip et sa mise en oeuvre, vous pouvez consulter le [tutoriel de Pierre Gerard sur la Prise en main de Modelio](http://lipn.univ-paris13.fr/~gerard/uml-s2/uml-td03.html).
-
-
-## Un exemple de développement Java piloté par le modèle avec Modelio <a id="exemple_DevJavaPiloteModele"></a>
-
-Les [**tutoriels vidéos**](http://archive.modeliosoft.com/fr/quick-tour-fr/modelio-video-tutorials.html) propose au travers de la vidéo ***11 – Développement Java piloté par le modèle avec Modelio*** des [**tutoriels vidéos**](http://archive.modeliosoft.com/fr/quick-tour-fr/modelio-video-tutorials.html) un exemple de modélistion et génération de code sur un petit projet web en deux parties :
-
-* Partie 1 : Création de modèle, génération Java et le mode roundtrip (~8 minutes)
-* Partie 2 : Exemple d'un diagramme de séquence, et l'utilisation de Modelio avec Eclipse pour exécuter et déboguer les applications Java dans Eclipse (~5 minutes)
-
-Les vidéos sont disponibles [ici](http://archive.modeliosoft.com/fr/quick-tour-fr/modelio-video-tutorials/109.html). N'hésitez pas à les visionner.
+### Continuez la tutoriel par la [mise en place du roundtrip Modelio/Eclipse à partir de fichiers Java existants](Modelio_RoundtripEclipse.md) 
 

@@ -15,7 +15,7 @@ Nous nous intéressons dans ce tutoriel à **Modelio**, un outil de modélisatio
 <!--Un aperçu de Modelio est disponible sur : [https://fr.wikipedia.org/wiki/Modelio](https://fr.wikipedia.org/wiki/Modelio)-->
 
 [Modelio](https://www.modelio.org/) supporte la plupart des diagrammes spécifiés par UML 2.0.  
-Il dispose également d'un système d'extensions sur le [Modelio Store](https://www.modeliosoft.com/modelio-store.html) qui permettent d'étendre ses fonctionnalités : des générateurs de code (Java, C++, C#) y sont par exemple disponibles. 
+Il dispose également d'un système d'extensions qui permettent d'étendre ses fonctionnalités : des générateurs de code (Java, C++, C#) y sont par exemple disponibles. Vous pouvez retrouver la liste des fonctionnalités de Modelio [ici](http://www.modeliosoft.com/fr/products/fonctionnalites-de-modelio.html).
 
 
 Dans ce tutoriel, nous nous intéressons plus particulièrement :
@@ -26,6 +26,7 @@ Dans ce tutoriel, nous nous intéressons plus particulièrement :
 * aux [diagrammes de séquences](Modelio_Sequences.md)
 * aux [diagrammes d'états](Modelio_Etats.md)
 * à la [génération de code Java](Modelio_GenerationCodeJava.md)
+* à la [mise en place du roundtrip Modelio/Eclipse](Modelio_RoundtripEclipse.md)
 
 **Remarque:** Il est conseillé de suivre pas à pas les différentes étapes de ce tutoriel dans l'ordre ci-dessus. En effet, de nombreux détails seront donnés lors de la réalisation du premier diagramme (cas d'utilisation) et seront consiédérés comme acquis pour la suite des diagrammes.*
 
