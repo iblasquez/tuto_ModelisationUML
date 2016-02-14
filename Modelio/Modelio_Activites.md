@@ -379,5 +379,5 @@ Il est donc intéressant de vérifier à tout moment, par une lecture simultané
 En construisant le diagramme d'activité, on va souvent être amené à constater qu'il manque des étapes dans la description détaillée, voire même de nouveaux cas d'utilisation. 
 La description détaillée et le diagramme d'activités proposent donc deux vues différentes sur le même cas d'utilisation qui se veulement cohérentes, complémentaires et qui permettent de s'enrichir mutuellement et d'enrichier également le diagramme des cas d'utilisation.
 
-### Continuez la tutoriel par la prise en main des [diagrammes de classes](Modelio_Classes.md) 
+### Continuez le tutoriel par la prise en main des [diagrammes de classes](Modelio_Classes.md) 
 

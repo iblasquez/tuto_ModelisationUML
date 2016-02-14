@@ -164,7 +164,7 @@ Les diagrammes d'états-transitions pourront donc se trouver directement à la r
 ![Arborescence de bookinons](images/DiagEtats_Arborescence.png)
 
 
-### Continuez la tutoriel par la [génération de code Java](Modelio_GenerationCodeJava.md) 
+### Continuez le tutoriel par la [génération de code Java](Modelio_GenerationCodeJava.md) 
 
 
 

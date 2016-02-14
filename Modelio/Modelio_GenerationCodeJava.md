@@ -106,5 +106,5 @@ Placez-vous sur le package **`com.modelio.bookinons`** de la **Vue Model** et **
 Consultez le fichier **`src`** et jetez un petit coup d'oeil sur les classes en éditant leur code source.
 
 
-### Continuez la tutoriel par la [mise en place du roundtrip Modelio/Eclipse à partir de fichiers Java existants](Modelio_RoundtripEclipse.md) 
+### Continuez le tutoriel par la [mise en place du roundtrip Modelio/Eclipse à partir de fichiers Java existants](Modelio_RoundtripEclipse.md) 
 

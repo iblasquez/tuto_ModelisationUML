@@ -667,7 +667,7 @@ Vous trouvez dans cette partie les liens vers les parties du manuel utilisateur 
 
 **Exemples de diagrammes réalisés avec Modélio :** disponibles [ici](https://www.modeliosoft.com/en/resources/diagram-examples.html)
 
-### Continuez la tutoriel par la prise en main des [diagrammes d'activités](Modelio_Activites.md)  
+### Continuez le tutoriel par la prise en main des [diagrammes d'activités](Modelio_Activites.md)  
 
 
 

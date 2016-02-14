@@ -428,5 +428,5 @@ Et dans notre modélisation, nous trouverons donc :
 * **un seul** diagramme de classes de persistantes qui sera commun à tous les UC de l'application
 * et autant de diagrammes de classes de participantes que de UC dans l'application.
 
-### Continuez la tutoriel par la prise en main des [diagrammes de séquence](Modelio_Sequences.md) 
+### Continuez le tutoriel par la prise en main des [diagrammes de séquence](Modelio_Sequences.md) 
 

@@ -20,7 +20,7 @@ Le round-trip va donc permettre que les modifications dans les modèles aient un
 
 Dans ce tutoriel, nous verrons comment :
 
-* [Ctéer une classe dans Modelio à partir d'un code source existant](#classeJavaToModelio)
+* [Créer une classe dans Modelio à partir d'un code source existant](#classeJavaToModelio)
 * [Créer un diagramme de classes à partir des classes importées](#creerDiagClasses)
 * [Editer le code généré par Modelio](#editerCode)
 * [Modifier le code généré directement sous Modelio](#modifierCodeModelio)

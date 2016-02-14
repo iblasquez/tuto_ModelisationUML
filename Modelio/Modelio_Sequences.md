@@ -353,4 +353,4 @@ Grâce à ces nouvelles notations, certains flots alternatifs pourraient donc tr
 
 
 
-### Continuez la tutoriel par la prise en main des [diagrammes de d'états](Modelio_Etats.md) 
+### Continuez le tutoriel par la prise en main des [diagrammes de d'états](Modelio_Etats.md) 
