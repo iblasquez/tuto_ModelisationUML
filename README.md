@@ -71,6 +71,7 @@ Ce sont des démarches spécifiques (elles ne font pas partie de la spécificati
 * Tutoriel pour la conception d'un système d'information WEB avec UML : [http://marcautran.developpez.com/tutoriels/uml/conception-uml/](http://marcautran.developpez.com/tutoriels/uml/conception-uml/)
 
 
+
 ### Webographie
 [http://www.uml.org/](http://www.uml.org/)  
 [https://www.modelio.org//]([https://www.modelio.org/)  
@@ -81,6 +82,10 @@ Ce sont des démarches spécifiques (elles ne font pas partie de la spécificati
 [https://fr.wikipedia.org/wiki/UML_%28informatique%29](https://fr.wikipedia.org/wiki/UML_%28informatique%29)    
 [https://fr.wikipedia.org/wiki/Comparaison_des_logiciels_d'UML](https://fr.wikipedia.org/wiki/Comparaison_des_logiciels_d'UML)  
 [https://fr.wikipedia.org/wiki/Modelio](https://fr.wikipedia.org/wiki/Modelio)  
+
+
+## Des katas pour s'entraîner ...
+Vous trouverez dans le répertoire [Katas](/Katas) d'anciens sujets de contrôle qui devraient vous permettre de modéliser de nouveaux diagrammes UML ...
 
 ## Licence
 This material may NOT be used as course material without prior written agreement.
