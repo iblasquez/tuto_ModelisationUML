@@ -51,6 +51,8 @@ Téléchargez dans un répertoire **Modelio** la dernière version de Modelio co
 
 Dézippez ce fichier. **Modelio** est prêt à être utilisé !
 
+**Attention !!! Modelio 3.4 nécessite Java 8 pour fonctionner !** Vérifiez la version de Java dont vous disposez avec un `java -version`.
+
 ## Lancer Modelio <a id="lancement"></a> 
 Lancer Modelio via l'icône 
 <img src="images/modelio_logo.jpg" alt="Icone Modelio" width="60">
