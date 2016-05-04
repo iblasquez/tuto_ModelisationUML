@@ -11,7 +11,7 @@ Dans ce tutoriel, nous verrons comment :
 
 * [Installer ObjectAid UML Explorer](#installationObjectAid)
 * [Réaliser un diagramme de classes sur un projet existant avec ObjectAid](#DiagClasses)
-	* [Importer un projet existant](#importerProjet)
+	* [Créer le projet](#creerProjet)
 	* [Créer un diagramme de classes](#creerDiagClasses)
 	* [Visualiser les classes Java sur le diagramme de classes](#visualiserDiagClasse)
 	* [Sauvegarder une image du diagramme de classes](#saveImage)
@@ -50,13 +50,9 @@ Dans les deux cas, vous devez relancer Eclipse pour que [ObjectAid UMLExplorer](
 
 ## Réaliser un diagramme de classes sur un projet existant avec ObjectAid <a id="DiagClasses"></a>
 
-### Importer un projet existant <a id="importerProjet"></a>
+### Créer le projet <a id="creerProjet"></a>
 
-A partir de (`File -> Import ... -> Existing Projects into Workspace`), cochez  `Select archive file` puis passez en paramètre le fichier **`refactoringExemple.zip`** disponible juste au-dessus.
-
-Vous obtenez 3 classes : **`Customer.java`**, **`Movie.java`** et **`Rental.java`**.
-
-Placez-vous alors sur ce projet (**`refactoringExemple`**) dans le **Package Explorer** et faites  un (`Maven -> Update Project ...`).
+Créez un projet que vous appelerez (**`refactoringExemple`**) et récupérez, par exemple, les 3 classes **`Customer.java`**, **`Movie.java`** et **`Rental.java`**, disponible dans le répertoire [`src`](src) ci-dessus.
 
 
 ### Créer un diagramme de classes <a id="creerDiagClasses"></a>
