@@ -45,7 +45,7 @@ Placez-vous sur le package **`refactoring`**, puis d'un clic droit sélectionnez
 Commencez par vérifier que la **Granularité** en bas de la fenêtre est bien à **Complet**.
 En effet, Modelio propose 3 niveaux de granulité pour le reverse engineering (Structurel simple, Structurel complet et Complet). Pour plus de détails, vous pouvez consulter la rubrique [Three reverse levels](http://forge.modelio.org/projects/javadesigner-modelio34-user-manual-english/wiki/Javadesigner-_javadeveloper_java_reverse_three_reverse_levels) du [Modelio Java Designer User Guide](http://forge.modelio.org/projects/javadesigner-modelio34-user-manual-english/wiki) 
   
-Vous devez maintenant chercher à importer les codes sources des classes [**`Customer.java`**](/src/Customer.java), [**`Movie.java`**](/src/Movie.java) et [**`Rental.java`**](/src/Rental.java) disponibles dans le répertoire de ce tutoriel [src](/src).  
+Vous devez maintenant chercher à importer les codes sources des classes **`Customer.java`**, **`Movie.java`** et **`Rental.java`** disponibles dans le répertoire de ce tutoriel [src](https://github.com/iblasquez/tuto_ModelisationUML/tree/master/Modelio/src).  
 Une fois l'adresse du répertoire saisie, sélectionnez les 3 classes, puis cliquez sur **`Suivant`** jusqu’à avoir la possibilité de cliquez sur **`Reverse`**.
 
 L'arborescente suivante est alors créée dans la **vue Model**.  
