@@ -35,7 +35,7 @@ Deux installations sont possibles :
 
 #### Depuis le menu `Install New Software...` sous Eclipse
 
-L'installation de [ObjectAid UMLExplorer](http://www.objectaid.com) depuis le menu (`Help ->Install New Software ...`) est décrite et illustrée à l'adresse suivante : [http://www.objectaid.com/installation](http://www.objectaid.com/installation)
+L'installation de [ObjectAid UMLExplorer](http://www.objectaid.com) depuis le menu (`Help ->Install New Software ...`) est décrite et illustrée à l'adresse suivante : [https://www.objectaid.com/install-objectaid](https://www.objectaid.com/install-objectaid)
 
 #### Depuis l'Eclipse marketPlace en ligne 
 
